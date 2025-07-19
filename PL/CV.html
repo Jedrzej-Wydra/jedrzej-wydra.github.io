@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jędrzej Wydra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="css/styles.css"> -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.active {
+    color: #ffffff;
+    background-color: #2e7d32;
+}
+</style>
+<script>
+function toggleTheme() {
+  
+  var segments = document.querySelectorAll('.w3-white, .w3-dark-grey');
+  segments.forEach(function(segment) {
+    if (segment.classList.contains('w3-white')) {
+      segment.classList.remove('w3-white');
+      segment.classList.add('w3-dark-grey');
+    } else {
+      segment.classList.remove('w3-dark-grey');
+      segment.classList.add('w3-white');
+    }
+  });
+
+  
+  var textElements = document.querySelectorAll('.w3-text-grey, .w3-text-light-grey');
+  textElements.forEach(function(element) {
+    if (element.classList.contains('w3-text-grey')) {
+      element.classList.remove('w3-text-grey');
+      element.classList.add('w3-text-light-grey');
+    } else {
+      element.classList.remove('w3-text-light-grey');
+      element.classList.add('w3-text-grey');
+    }
+  });
+}
+</script>
+</head>
+<body style="background-color: #4a4a4a">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+<nav class="w3-bar w3-green w3-card-4 w3-margin-bottom">
+  <a href="javascript:void(0);" onclick="toggleTheme()" class="w3-bar-item w3-button w3-right">
+    <i class="fa fa-moon"></i>
+  </a>
+  <a href="../resume.html" class="w3-bar-item w3-button w3-right">ENG</a>
+  <a href="https://sicss-amulaw.github.io" target="_blank" class="w3-bar-item w3-button w3-right">SICSS-AMU/Law</a>
+  <a href="https://github.com/Jedrzej-Wydra" target="_blank" class="w3-bar-item w3-button w3-right">GitHub Repo</a>
+  <a href="../PL/Dydaktyka.html" class="w3-bar-item w3-button w3-right">Dydaktyka</a>
+  <a href="../PL/CV.html" class="w3-bar-item w3-button w3-right active">CV</a>
+  <a href="../PL/Publikacje.html" class="w3-bar-item w3-button w3-right">Publikacje</a>
+  <a href="../PL/aktualnosci.html" class="w3-bar-item w3-button w3-right">Aktualności</a>
+</nav>
+
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/jw.jpg" style="width:100%" alt="J.W.">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h3>Jędrzej Wydra</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-solid fa-briefcase fa-fw w3-text-green fa-lg" style="margin-right: 5px"></i>Data Scientist</p>
+<p><i class="fa fa-solid fa-jedi fa-fw w3-text-green fa-lg" style="margin-right: 5px"></i>Prawnik, Matematyk</p>
+<p><i class="fa fa-home fa-fw w3-text-green fa-lg" style="margin-right: 5px"></i>Poznań, Polska</p>
+
+          
+<div style="text-align: center;">
+      <a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
+      <i class="fa-solid fa-envelope fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a> 
+      <a href="https://www.facebook.com/jedrzej.wydra/" target=blank_>
+      <i class="fa-brands fa-facebook fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+      <a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
+      <i class="fa-brands fa-linkedin fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+      <a href="https://medium.com/@ww.jedrzej" target="_blank">
+      <i class="fa-brands fa-medium fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+      <a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
+      <i class="fa-brands fa-researchgate fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+      <a href="https://github.com/Jedrzej-Wydra" target="_blank">
+      <i class="fa-brands fa-github fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+      <a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
+      <i class="fa-brands fa-orcid fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a><br>
+</div>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-green"></i>Umiejętności</b></p>
+          <p>Programowanie w R</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-green" style="width:90%">90%</div>
+          </div>
+          <p>Programowanie w Pythonie</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-green" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Rozwiązywanie problemów</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-green" style="width:85%">85%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-green"></i>Języki</b></p>
+          <p>Polski</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-green" style="height:24px;width:100%"></div>
+          </div>
+          <p>Angielski </p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-green" style="height:24px;width:75%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+<div class="w3-white w3-text-grey w3-card-4">
+        
+        <div class="w3-container">
+        <p class="w3-large w3-text-theme"><b><i class="fa-solid fa-forward-fast fa-fw w3-margin-right w3-text-green"></i>Krótko o doświadczeniu</b></p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Sześć publikacji naukowych;</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 20 projektów z zakresu data science i analizy danych;</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 30 repozytoriów na GitHubie;</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 120 projektów zrealizowanych na DataCamp;</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 200 ukończonych kursów z zakresu data science;</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Opisywany przez studentów jako najbardziej charyzmatyczny wykładowca na wydziale.</p>      
+          <br>
+        </div>
+      </div><br>
+
+
+<div class="w3-white w3-text-grey w3-card-4">
+        
+        <div class="w3-container">
+        <p class="w3-large w3-text-theme"><b><i class="fa-solid fa-cube fa-fw w3-margin-right w3-text-green"></i>Hobby</b></p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Herbata, matcha, yerba mate, ale nie kawa;</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Psychologa (by odkrywać, co kryje się w ludzkiej głowie);</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Kalistenika (by przekraczać własne granice);</p>
+          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Jestem jednym z Moca. Moc jest ze mną.</p> 
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Doświadczenie zawodowe</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Badacz, doktorant / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2020 - <span class="w3-tag w3-green w3-round">Obecnie</span></h6>
+          <p style="text-align: justify;">Łącząc nauki prawne i matematykę prowadzę badania naukowe w ramach przygotowywania rozprawy doktorskiej. Skupiam się na ocenie dowodów, w szczególności na szacowaniu czasu śmierci na podstawie śladów entomologicznych. Ponadto zajmuję się badaniem zastosowań data science w problemach prawniczych, wykorzystując zaawansowane narzędzia analityczne do poprawy dokładności i rzetelności postępowań prawniczych</p>
+          <hr>
+        </div>
+
+<div class="w3-container">
+          <h5 class="w3-opacity"><b>Koordynator ds. technologii / <br>SICSS-AMU/Law<br>we współpracy z Uniwersytetem Duke'a</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Grudzień 2021 - Styczeń 2025</h6>
+          <p style="text-align: justify;">Organizacja Szkoły letniej dotyczącej zastosowania metod empirycznych w badań z zakresu nauk prawnych. Przygotowanie programu warsztatów, nadzór nad prowadzącymi zajęcia (teaching assistants) oraz koordynacja aspektów technicznych.</p><hr>
+        </div>
+
+<div class="w3-container">
+          <h5 class="w3-opacity"><b>Data Analyst / <br>Thermogenesis, feeding matrix and parental care in carrion beetle Necrodes littoralis L. (Silphidae): spatiotemporal patterns, determinants, mechanisms and fitness effects of heat production in the matrix<br>Narodowe Centrum Nauki (Polska)</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2022 - Marzec 2025</h6>
+          <p style="text-align: justify;">grant nr: 2021/41/B/NZ8/00474;<br>
+          kierownik projektu: prof. UAM dr hab. Szymon Matuszewski</p>
+          <p style="text-align: justify;">Analiza i porządkowanie danych, w tym przekształcanie danych nieustrukturyzowanych w dane ustrukturyzowane, takich jak zdjęcia termowizyjne. Przygotowywanie wizualizacji danych , proponowanie i wdrażanie rozwiązań matematycznych dla złożonych problemów. W tym, w razie potrzeby, opracowywanie narzędzie programistycznych wspierających realizację projektu.</p><hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Data Scientist / <br>Freelancer</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Styczeń 2024 - <span class="w3-tag w3-green w3-round">Obecnie</span></h6>
+          <p style="text-align: justify;">Głównie wykorzystanie data science i sztucznej inteligencji w zagadnieniach z zakresu nauk prawnych i praktyki prawniczej. Zastosowanie metod analitycznych do rozwiązywania złożonych problemów.</p><br>
+        </div>
+      
+</div>
+
+<div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-star fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Główne osiągnięcia</h2>
+         <div class="w3-container">
+          <h5 class="w3-opacity"><b>Data Scientist Certificate / <br>DataCamp</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Czerwiec 2025</h6>
+        Certyfikat: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/Data_Scientist.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+        <hr>
+        </div>
+
+<div class="w3-container">
+          <h5 class="w3-opacity"><b>AI Fundamentals Certificate / <br>DataCamp</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sierpień 2024</h6>
+        Certyfikat: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/AI_Fundamentals.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+        <hr>
+        </div>
+
+<div class="w3-container">
+          <h5 class="w3-opacity"><b>Data Literacy Certificate / <br>DataCamp</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sierpień 2024</h6>
+        Certyfikat: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/Data_Literacy.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+        <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Ponad 1 000 000 punktów XP na DataCamp</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Grudzień 2023</h6>
+Potwierdzenie: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/Over_1000000_XP_31122023.png" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Specjalizacja ze statystyki bayesowskiej / <br>Uniwersytet Kalifornijski, Santa Cruz</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sierpień 2023</h6>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/Bayesian_Statistics.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Professional Data Analyst Certificate / <br>DataCamp</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Maj 2023</h6>
+         Certyfikat: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/Data_Analyst.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+           <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Druga nagroda za najlepszą pracę magisterską / <br> Wydziałowy Konkurs Wydziału Prawa i Administracji</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Listopad 2020</h6>
+Potwierdzenie: <a href="https://github.com/Jedrzej-Wydra/main-achievements/blob/main/Dean_letter.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+        </div>
+      <br>
+      </div>
+
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Wykształcenie</h2>
+
+<div class="w3-container">
+          <h5 class="w3-opacity"><b>Psychologia / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2024 - <span class="w3-tag w3-green w3-round">Obecnie</span></h6></h6>
+          <p>Nowa podróż inspirowana pasją</p>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Matematyka / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>październik 2020 - lipiec 2023</h6>
+          <p>Magister, Specjalizacja w matematyce teoretycznej</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Matematyka / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>październik 2016 - wrzesień 2020</h6>
+          <p>Licencjat, Specjalizacja w analizie danych</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Prawo / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>październik 2015 - czerwiec 2020</h6>
+          <p>Magister, Specjalizacja w kryminalistyce</p><br>
+        </div>
+
+      </div>
+
+    <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Warto wspomnieć</h2>
+<div class="w3-container">
+          <h5 class="w3-opacity"><b> Kurs Pierwszej Pomocy / <br>MEDAID sp. z o.o.</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Maj 2025</h6>
+          <p>Praktyczna podróż przez podstawy ratowania życia, prowadzona przez doświadczonych instruktorów z MEDAID. Ten intensywny kurs obejmował szerokie zagadnienia – od oceny miejsca wypadku i zrozumienia mechanizmów urazów, po umiejętności ratujące życie, takie jak udrażnianie dróg oddechowych, RKO, obsługa AED i pomoc w urazach. Wykraczał poza fizyczną pierwszą pomoc, poruszając również temat wsparcia psychologicznego, postępowania z agresywnymi poszkodowanymi oraz kluczowego znaczenia czasu w sytuacjach nagłych. To było coś więcej niż szkolenie – mocne przypomnienie, jak wiedza i opanowane działanie mogą naprawdę zrobić różnicę.</p>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/blob/main/Kurs_pierwszej_pomocy.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+<div class="w3-container">
+          <h5 class="w3-opacity"><b> Erasmus: New Ways of Thinking / <br>Dare 2 Succeed</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2025</h6>
+          <p>Inspirująca podróż w głąb ludzkiego umysłu, zorganizowana w historycznym sercu Timișoary w Rumunii – miasta, w którym wciąż pobrzmiewają echa europejskiej walki z komunizmem. Warsztaty w ramach programu Erasmus oferowały głębokie zanurzenie w inteligencję emocjonalną, elastyczność poznawczą, myślenie projektowe i metaforyczne, a także krytyczne myślenie, błędy poznawcze i sofizmaty. Dzięki znakomitym trenerom i niezapomnianej grupie uczestników było to coś więcej niż kurs – doświadczenie poszerzające umysł, łączące psychologię, kreatywność i wyjątkową atmosferę miejsca.</p>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/blob/main/new_ways_of_thinking.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+<div class="w3-container">
+          <h5 class="w3-opacity"><b>V International Summer School Scientific excellence - origins, research, results / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2024</h6>
+          <p>Inspirujące wydarzenie, które zgłębiało rolę sztucznej inteligencji w nauce, historię chirurgii oraz ponadczasowe wyzwania związane z tłumaczeniem (dosłownie ‘lost in translation’). Punktem kulminacyjnym była wystawa rzadkich książek, w tym pierwszego wydania przełomowego dzieła Kopernika De revolutionibus orbium coelestium. Zdecydowanie doświadczenie poszerzające horyzonty!</p>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/blob/main/Scientific_excellence.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Digital Traces / <br>Uniwersytet im. Adama Mickiewicza w Poznaniu</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2024 - April 2024</h6>
+          <p>Kurs prowadzony przez Centralne Biuro Zwalczania Cyberprzestępczości oraz Klinikę Prawa Uniwersytetu im. Adama Mickiewicza w Poznaniu. Szkolenie koncentrowało się na identyfikacji i zarządzaniu śladami cyfrowymi w sprawach karnych, oferując praktyczne spojrzenie na metodykę ścigania cyberprzestępczości.</p>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/blob/main/Digital_Traces.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Safe Driving / <br>Škoda Autodrom Poznań</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2024</h6>
+          <p>Praktyczny kurs bezpiecznej jazdy organizowany przez Škodę. Szkolenie obejmowało kluczowe techniki, takie jak pokonywanie slalomów, kontrola pojazdu w trudnych warunkach (np. podczas poślizgu), hamowanie awaryjne oraz jazda po śliskiej nawierzchni, mające na celu zwiększenie bezpieczeństwa i panowania nad samochodem.</p>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/blob/main/Safe_Driving.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Computation and Modelling 2022 / <br>Politechnika Wrocławska</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2022</h6>
+          <p>Tygodniowa międzynarodowa szkoła letnia poświęcona matematycznym aspektom zaawansowanych metod analizy danych. Program oferował pogłębione zapoznanie z obliczeniowymi i teoretycznymi technikami modelowania, niezbędnymi do rozwiązywania złożonych wyzwań analizy danych.</p>
+          Certyfikat: <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/blob/main/Computation_and_Modelling_2022_Wrocław.pdf" target="_blank">
+          <i class="fa-solid fa-certificate" style="margin: 0 5px;"></i></a><br><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-green w3-center w3-margin-top">
+  <p>Kontakt</p>
+  <div class="w3-xlarge w3-section">
+    <a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
+      <i class="fa-solid fa-envelope" style="margin: 0 5px;"></i></a> 
+      <a href="https://www.facebook.com/jedrzej.wydra/" target=blank_>
+      <i class="fa-brands fa-facebook" style="margin: 0 5px;"></i></a>
+      <a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
+      <i class="fa-brands fa-linkedin" style="margin: 0 5px;"></i></a>
+      <a href="https://medium.com/@ww.jedrzej" target="_blank">
+      <i class="fa-brands fa-medium" style="margin: 0 5px;"></i></a>
+      <a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
+      <i class="fa-brands fa-researchgate" style="margin: 0 5px;"></i></a>
+      <a href="https://github.com/Jedrzej-Wydra" target="_blank">
+      <i class="fa-brands fa-github" style="margin: 0 5px;"></i></a>
+      <a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
+      <i class="fa-brands fa-orcid" style="margin: 0 5px;"></i></a>
+  </div>
+  <p>© Copyright 2025 by Jędrzej Wydra<p/>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p>Hosted by GitHub Pages</p>
+</footer>
+
+</body>
+</html>
