@@ -2,5 +2,8 @@
 
 #### author: Jędrzej Wydra
 
+## Short summary
+Developed a responsive personal portfolio website using HTML, CSS, and JavaScript with GitHub Pages deployment and interactive UI features.
+
 ## Technical summary
 Designed and developed a personal portfolio website hosted on GitHub Pages using HTML5, CSS (w3.css framework), and vanilla JavaScript. Implemented responsive layout, interactive elements (theme toggle, modals), and integrated external services (GitHub, LinkedIn, Medium). Delivered a clean and minimalistic user experience while ensuring easy maintainability and scalability for future updates.
