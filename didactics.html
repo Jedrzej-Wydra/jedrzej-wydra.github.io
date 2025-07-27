@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 <title>Jędrzej Wydra</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <!-- <link rel="stylesheet" href="css/styles.css"> -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
@@ -45,262 +46,199 @@ function toggleTheme() {
 </script>
 </head>
 <body style="background-color: #4a4a4a">
-
 <!-- Pasek uproszczony dla małych ekranów -->
 <div class="w3-bar w3-green w3-hide-medium w3-hide-large">
-  <!-- Hamburger po lewej -->
-  <button class="w3-bar-item w3-button" onclick="toggleSidebar()">
-    <i class="fa fa-bars"></i>
-  </button>
-  <!-- Po prawej przycisk zmiany motywu -->
-  <button class="w3-bar-item w3-button w3-right" onclick="toggleTheme()">
-    <i class="fa fa-moon"></i>
-  </button>
-  <!-- Po prawej link do PL -->
-  <a href="PL/dydaktyka.html" class="w3-bar-item w3-button w3-right">PL</a>
+<!-- Hamburger po lewej -->
+<button class="w3-bar-item w3-button" onclick="toggleSidebar()">
+<i class="fa fa-bars"></i>
+</button>
+<!-- Po prawej przycisk zmiany motywu -->
+<button class="w3-bar-item w3-button w3-right" onclick="toggleTheme()">
+<i class="fa fa-moon"></i>
+</button>
+<!-- Po prawej link do PL -->
+<a class="w3-bar-item w3-button w3-right" href="PL/dydaktyka.html">PL</a>
 </div>
-
 <!-- Sidebar menu dla małych ekranów -->
-<nav class="w3-sidebar w3-bar-block w3-green w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mobileSidebar">
-  <a href="index.html" class="w3-bar-item w3-button">News</a>
-  <a href="publications.html" class="w3-bar-item w3-button">Publications</a>
-  <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
-  <a href="didactics.html" class="w3-bar-item w3-button active">Didactics</a>
-  <a href="https://github.com/Jedrzej-Wydra" target="_blank" class="w3-bar-item w3-button">GitHub Repo</a>
-  <a href="https://sicss-amulaw.github.io" target="_blank" class="w3-bar-item w3-button">SICSS-AMU/Law</a>
+<nav class="w3-sidebar w3-bar-block w3-green w3-animate-left w3-hide-medium w3-hide-large" id="mobileSidebar" style="display:none">
+<a class="w3-bar-item w3-button" href="index.html">News</a>
+<a class="w3-bar-item w3-button" href="publications.html">Publications</a>
+<a class="w3-bar-item w3-button" href="resume.html">Resume</a>
+<a class="w3-bar-item w3-button active" href="didactics.html">Didactics</a>
+<a class="w3-bar-item w3-button" href="https://github.com/Jedrzej-Wydra" target="_blank">GitHub Repo</a>
+<a class="w3-bar-item w3-button" href="https://sicss-amulaw.github.io" target="_blank">SICSS-AMU/Law</a>
 </nav>
-
-
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
 <nav class="w3-bar w3-green w3-card-4 w3-margin-bottom w3-hide-small">
-  <a href="javascript:void(0);" onclick="toggleTheme()" class="w3-bar-item w3-button w3-right">
-    <i class="fa fa-moon"></i>
-  </a>
-  <a href="PL/dydaktyka.html" class="w3-bar-item w3-button w3-right">PL</a>
-  <a href="https://sicss-amulaw.github.io" target=blank_ class="w3-bar-item w3-button w3-right">SICSS-AMU/Law</a>
-  <a href="https://github.com/Jedrzej-Wydra" target=blank_ class="w3-bar-item w3-button w3-right">GitHub Repo</a>
-  <a href="didactics.html" class="w3-bar-item w3-button w3-right active">Didactics</a>
-  <a href="resume.html" class="w3-bar-item w3-button w3-right">Resume</a>
-  <a href="publications.html" class="w3-bar-item w3-button w3-right">Publications</a>
-  <a href="index.html" class="w3-bar-item w3-button w3-right">News</a>
+<a class="w3-bar-item w3-button w3-right" href="javascript:void(0);" onclick="toggleTheme()">
+<i class="fa fa-moon"></i>
+</a>
+<a class="w3-bar-item w3-button w3-right" href="PL/dydaktyka.html">PL</a>
+<a class="w3-bar-item w3-button w3-right" href="https://sicss-amulaw.github.io" target="blank_">SICSS-AMU/Law</a>
+<a class="w3-bar-item w3-button w3-right" href="https://github.com/Jedrzej-Wydra" target="blank_">GitHub Repo</a>
+<a class="w3-bar-item w3-button w3-right active" href="didactics.html">Didactics</a>
+<a class="w3-bar-item w3-button w3-right" href="resume.html">Resume</a>
+<a class="w3-bar-item w3-button w3-right" href="publications.html">Publications</a>
+<a class="w3-bar-item w3-button w3-right" href="index.html">News</a>
 </nav>
-
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-
-
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="images/jw.jpg" style="width:100%" alt="J.W.">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h3>Jędrzej Wydra</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-        <br>
-
-          
-<div style="text-align: center;">
-      <a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
-      <i class="fa-solid fa-envelope fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a> 
-      <a href="https://www.facebook.com/jedrzej.wydra/" target=blank_>
-      <i class="fa-brands fa-facebook fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
-      <i class="fa-brands fa-linkedin fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://medium.com/@ww.jedrzej" target="_blank">
-      <i class="fa-brands fa-medium fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-researchgate fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://github.com/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-github fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
-      <i class="fa-brands fa-orcid fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a><br><br>
+<!-- The Grid -->
+<div class="w3-row-padding">
+<!-- Left Column -->
+<div class="w3-third">
+<div class="w3-white w3-text-grey w3-card-4">
+<div class="w3-display-container">
+<img alt="J.W." src="images/jw.jpg" style="width:100%"/>
+<div class="w3-display-bottomleft w3-container w3-text-black">
+<h3>Jędrzej Wydra
+</h3></div>
 </div>
-          
-          
-        </div>
-      </div><br>
-
-
+<div class="w3-container">
+<br/>
+<div style="text-align: center;">
+<a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
+<i class="fa-solid fa-envelope fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://www.facebook.com/jedrzej.wydra/" target="blank_">
+<i class="fa-brands fa-facebook fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
+<i class="fa-brands fa-linkedin fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://medium.com/@ww.jedrzej" target="_blank">
+<i class="fa-brands fa-medium fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-researchgate fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://github.com/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-github fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
+<i class="fa-brands fa-orcid fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a><br/><br/>
+</div>
+</div>
+</div><br/>
 <div class="w3-white w3-text-grey w3-card-4">
-        
-        <div class="w3-container">
-        <p class="w3-large w3-text-theme"><b><i class="fa-solid fa-forward-fast fa-fw w3-margin-right w3-text-green"></i>Glance at Experience</b></p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Six scientific publications;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Over 20 data science & analytics projects;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Over 30 GitHub repositories;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Over 120 projects completed on DataCamp;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>More than 200 data science courses completed;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Described by students as the most charismatic lecturer in the faculty.</p>      
-          <br>
-        </div>
-      </div><br>
-
+<div class="w3-container">
+<p class="w3-large w3-text-theme"><b><i class="fa-solid fa-forward-fast fa-fw w3-margin-right w3-text-green"></i>Glance at Experience</b></p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Six scientific publications;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Over 20 data science &amp; analytics projects;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Over 30 GitHub repositories;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Over 120 projects completed on DataCamp;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>More than 200 data science courses completed;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Described by students as the most charismatic lecturer in the faculty.</p>
+<br/>
+</div>
+</div><br/>
 <div class="w3-white w3-text-grey w3-card-4">
-  <div class="w3-container">
-    <p class="w3-large w3-text-theme">
-      <b><i class="fa-solid fa-comment fa-fw w3-margin-right w3-text-green"></i>Students' Opinions</b>
-    </p>
-
-    <!-- Wybrane krótkie opinie -->
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> The best lecturer I had the chance to meet. Mr. Wydra has a wonderful approach to students, very precisely and clearly discusses the material, cares that students understand the issues and can handle them on the exam. He is an extremely charismatic and open person, provides students with stress-free and very effective learning of knowledge.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer impressed and inspired with his engagement. One of the best educators I have dealt with. I am deeply grateful to him for making a subject that seemed a bit boring and scary into something fascinating.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> One of the more interesting classes, that it was a shame not to come to. Mr. Wydra with his charisma made that 1,5 hour was spent not only in a hardworking but also interesting way.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra was a lecturer worthy of this university. Great classes, where everyone felt good, without stress and with wonderful approach to each person. It was a very interesting time and when the time of the last classes came I was sad that it is already the end, and it is worth to mention that logic is not one of my favourite subjects. Mr. Jędrzej is a wonderful person and even better lecturer.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra conducted the classes in an interesting way, often expanding the scope of the lectures with fascinating topics that broadened our knowledge.</p>
- 
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted by Mr. Wydra were truly epic. Every topic was discussed thoroughly. There was time for students’ questions. Every unclear thing was immediately explained. I recommend the lecturer.</p>
-
-    
-
-    <!-- Przycisk Show More w tym samym stylu -->
-    <p>
-      <button 
-        onclick="document.getElementById('opinie-studentow').style.display='block'" 
-        class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" 
-        style="margin-top:10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-        <i class="fa-solid fa-circle-plus" style="margin-right:6px;"></i>
+<div class="w3-container">
+<p class="w3-large w3-text-theme">
+<b><i class="fa-solid fa-comment fa-fw w3-margin-right w3-text-green"></i>Students' Opinions</b>
+</p>
+<!-- Wybrane krótkie opinie -->
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The best lecturer I had the chance to meet. Mr. Wydra has a wonderful approach to students, very precisely and clearly discusses the material, cares that students understand the issues and can handle them on the exam. He is an extremely charismatic and open person, provides students with stress-free and very effective learning of knowledge.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer impressed and inspired with his engagement. One of the best educators I have dealt with. I am deeply grateful to him for making a subject that seemed a bit boring and scary into something fascinating.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> One of the more interesting classes, that it was a shame not to come to. Mr. Wydra with his charisma made that 1,5 hour was spent not only in a hardworking but also interesting way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra was a lecturer worthy of this university. Great classes, where everyone felt good, without stress and with wonderful approach to each person. It was a very interesting time and when the time of the last classes came I was sad that it is already the end, and it is worth to mention that logic is not one of my favourite subjects. Mr. Jędrzej is a wonderful person and even better lecturer.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra conducted the classes in an interesting way, often expanding the scope of the lectures with fascinating topics that broadened our knowledge.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted by Mr. Wydra were truly epic. Every topic was discussed thoroughly. There was time for students’ questions. Every unclear thing was immediately explained. I recommend the lecturer.</p>
+<!-- Przycisk Show More w tym samym stylu -->
+<p>
+<button class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" onclick="document.getElementById('opinie-studentow').style.display='block'" style="margin-top:10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+<i class="fa-solid fa-circle-plus" style="margin-right:6px;"></i>
         Show more
       </button>
-    </p>
-    <br>
-  </div>
+</p>
+<br/>
 </div>
-
-
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-  
-
+</div>
+<!-- End Left Column -->
+</div>
+<!-- Right Column -->
+<div class="w3-twothird">
 <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-building-columns fa-fw w3-margin-right w3-xxlarge w3-text-green"></i> Lectures </h2>
-
+<h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-building-columns fa-fw w3-margin-right w3-xxlarge w3-text-green"></i> Lectures </h2>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b>Elements of Statistics</b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2025 - June 2025</h6>
-          <br>
-        </div>
-
+<h5 class="w3-opacity"><b>Elements of Statistics</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2025 - June 2025</h6>
+<br/>
+</div>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b>Introduction to Data Science</b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2025 - April 2025</h6>
-          <br>
-        </div>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Python programming</b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2024 - February 2025</h6>
-          <br>
-        </div>
-      </div>
-
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-chalkboard-user fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Classes</h2>
-
+<h5 class="w3-opacity"><b>Introduction to Data Science</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2025 - April 2025</h6>
+<br/>
+</div>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b> AI Law </b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2025 - February 2026</h6>
-          <br>
-        </div>
-
-<div class="w3-container">
-          <h5 class="w3-opacity"><b> Forensic evidence - establishing proof </b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2025 - June 2025</h6>
-          <br>
-        </div>
-
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Logic for lawyers</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2022 - February 2023</h6>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2023 - February 2024</h6>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2024 - February 2025</h6>
-	<p>materials: <a href="https://github.com/Jedrzej-Wydra/logic-for-lawyers" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-          
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Practical logic</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2022 - February 2023</h6>
-<p>materials: <a href="https://github.com/Jedrzej-Wydra/practical-logic" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-          <br>
-        </div>
-      </div>
-
+<h5 class="w3-opacity"><b>Python programming</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2024 - February 2025</h6>
+<br/>
+</div>
+</div>
 <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Workshops</h2>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data Analysis for lawyers /<br>SICSS-AMU/Law 2024</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2024</h6>
-<p>materials: <a href="https://github.com/SICSS-AMULaw/Edition_2024/tree/main/Workshops" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-          
-          <hr>
-        </div>
+<h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-chalkboard-user fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Classes</h2>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b>Statistics and machine learning for lawyers /<br>SICSS-AMU/Law 2022</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2022</h6>
-	<p>materials: <a href="https://github.com/SICSS-AMULaw/Edition_2022/tree/main/Workshops" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-        <br>
-        </div>
-      
-
+<h5 class="w3-opacity"><b> AI Law </b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2025 - February 2026</h6>
+<br/>
 </div>
-
-
-    <!-- End Right Column -->
-    </div>
-    
-
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
+<div class="w3-container">
+<h5 class="w3-opacity"><b> Forensic evidence - establishing proof </b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2025 - June 2025</h6>
+<br/>
 </div>
-
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Logic for lawyers</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2022 - February 2023</h6>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2023 - February 2024</h6>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2024 - February 2025</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/Jedrzej-Wydra/logic-for-lawyers" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materials</a></p>
+<hr/>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Practical logic</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2022 - February 2023</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/Jedrzej-Wydra/practical-logic" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materials</a></p>
+<br/>
+</div>
+</div>
+<div class="w3-container w3-card w3-white w3-margin-bottom">
+<h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Workshops</h2>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Data Analysis for lawyers /<br/>SICSS-AMU/Law 2024</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2024</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/SICSS-AMULaw/Edition_2024/tree/main/Workshops" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materials</a></p>
+<hr/>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Statistics and machine learning for lawyers /<br/>SICSS-AMU/Law 2022</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2022</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/SICSS-AMULaw/Edition_2022/tree/main/Workshops" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materials</a></p>
+<br/>
+</div>
+</div>
+<!-- End Right Column -->
+</div>
+<!-- End Grid -->
+</div>
+<!-- End Page Container -->
+</div>
 <footer class="w3-container w3-green w3-center w3-margin-top">
-  <p>Contact me</p>
-  <div class="w3-xlarge w3-section">
-    <a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
-      <i class="fa-solid fa-envelope" style="margin: 0 5px;"></i></a> 
-      <a href="https://www.facebook.com/jedrzej.wydra/" target=blank_>
-      <i class="fa-brands fa-facebook" style="margin: 0 5px;"></i></a>
-      <a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
-      <i class="fa-brands fa-linkedin" style="margin: 0 5px;"></i></a>
-      <a href="https://medium.com/@ww.jedrzej" target="_blank">
-      <i class="fa-brands fa-medium" style="margin: 0 5px;"></i></a>
-      <a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-researchgate" style="margin: 0 5px;"></i></a>
-      <a href="https://github.com/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-github" style="margin: 0 5px;"></i></a>
-      <a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
-      <i class="fa-brands fa-orcid" style="margin: 0 5px;"></i></a>
-  </div>
-  <p>© Copyright 2025 by Jędrzej Wydra<p/>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  <p>Hosted by GitHub Pages</p>
-</footer>
-
+<p>Contact me</p>
+<div class="w3-xlarge w3-section">
+<a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
+<i class="fa-solid fa-envelope" style="margin: 0 5px;"></i></a>
+<a href="https://www.facebook.com/jedrzej.wydra/" target="blank_">
+<i class="fa-brands fa-facebook" style="margin: 0 5px;"></i></a>
+<a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
+<i class="fa-brands fa-linkedin" style="margin: 0 5px;"></i></a>
+<a href="https://medium.com/@ww.jedrzej" target="_blank">
+<i class="fa-brands fa-medium" style="margin: 0 5px;"></i></a>
+<a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-researchgate" style="margin: 0 5px;"></i></a>
+<a href="https://github.com/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-github" style="margin: 0 5px;"></i></a>
+<a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
+<i class="fa-brands fa-orcid" style="margin: 0 5px;"></i></a>
+</div>
+<p>© Copyright 2025 by Jędrzej Wydra<p></p>
+<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<p>Hosted by GitHub Pages</p>
+</p></footer>
 <!-- === START: MODAL "All Students' Opinions" === -->
 <style>
   /* Przyciemnione półprzezroczyste tło za modalem – spójne */
@@ -342,121 +280,107 @@ function toggleTheme() {
     }
   }
 </style>
-
-<div id="opinie-studentow" class="w3-modal" style="display:none">
-  <div class="w3-modal-content w3-animate-opacity w3-round-large custom-modal-content">
-       
-    <!-- Zamknięcie -->
-    <span onclick="document.getElementById('opinie-studentow').style.display='none'" 
-          class="w3-button w3-display-topright">&times;</span>
-          
-    <!-- Tytuł modala -->
-    <h4 class="w3-text-green" style="margin-top:0; margin-bottom:16px;">
-      <i class="fa-solid fa-users" style="margin-right:6px;"></i>
+<div class="w3-modal" id="opinie-studentow" style="display:none">
+<div class="w3-modal-content w3-animate-opacity w3-round-large custom-modal-content">
+<!-- Zamknięcie -->
+<span class="w3-button w3-display-topright" onclick="document.getElementById('opinie-studentow').style.display='none'">×</span>
+<!-- Tytuł modala -->
+<h4 class="w3-text-green" style="margin-top:0; margin-bottom:16px;">
+<i class="fa-solid fa-users" style="margin-right:6px;"></i>
       Students' Opinions*
     </h4>
-    
-    <p>
-      Here you can find more feedback shared by my students.<br>
+<p>
+      Here you can find more feedback shared by my students.<br/>
       (The opinions are anonymous but reflect real experiences).
     </p>
-    <p><br>*<I>All opinions were written in Polish. They were translated into English using ChatGPT.</I>
-
-    <!-- Przewijalna lista wszystkich opinii -->
-    <div class="opinions-list">
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Great classes, practical knowledge.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> One of the more interesting classes, that it was a shame not to come to. Mr. Wydra with his charisma made that 1,5 hour was spent not only in a hardworking but also interesting way.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Workshops with Mr. Magister were one of the most interesting during the studies.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes led by Mr. Jędrzej Wydra were extremely interesting. Already from the first moments you could see that he puts into his work a huge amount of energy and engagement. His full of passion attitude made that classes were not only substantive, but also inspiring and dynamic.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra is the best lecturer so far!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I think it was the best classes in the whole semester. A lot of knowledge, and on top of that given in a very interesting way. Classes conducted with openness, without compulsion and with a smile.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I think that the classes were conducted in a way friendly for students, without stress and in a nice atmosphere. I willingly attended the classes because of the knowledge that was provided, which was reliable. The lecturer himself very energetic and at the same time creative. Each class was conducted according to the needs of the students and it was possible to use the knowledge and help of the lecturer.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> fantastically conducted classes, a lot of material, lecturer engaged, helpful and patient. big plus</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. mgr was very engaged in the lessons and made me look different at logic. I really regret that we finished logic. Mr. mgr was very engaged in the lessons and made me look different at logic. I really regret that we finished logic.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra is a wonderful person, very understanding and positively oriented to all people he taught. Even if sometimes it happened that some part of the material was not understood, Mr. Jędrzej calmly explained all doubts. His approach to teaching allows to keep an individual pace of learning for each person, without losses in the material.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The best lecturer I had the chance to meet. Mr. Wydra has a wonderful approach to students, very precisely and clearly discusses the material, cares that students understand the issues and can handle them on the exam. He is an extremely charismatic and open person, provides students with stress-free and very effective learning of knowledge.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra was a lecturer worthy of this university. Great classes, where everyone felt good, without stress and with wonderful approach to each person. It was a very interesting time and when the time of the last classes came I was sad that it is already the end, and it is worth to mention that logic is not one of my favourite subjects. Mr. Jędrzej is a wonderful person and even better lecturer.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I never thought I would meet at the university such an outstanding lecturer as Mr. Jędrzej Wydra. Very open, funny and experienced person, he is a role model and his presence colored logic, which was incomprehensible for me. The approach to topics was very creative and inventive, Mr. Wydra explained the content until it was understood and gave many chances to understand his subject. Especially for us he even organized an extra meeting before the exam. His engagement delights me, as well as the fact that he was able to remember the names of some people to make contact with students. He will remain the best remembered lecturer for me and the most engaged teacher.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes with such lecturer caused in me an interest in the subject and attending them was pure pleasure. The ability to pass knowledge in an interesting way and the competence of mgr Wydra are unbeatable.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Despite the difficult subject, the lecturer in an excellent and above all understandable way conducted the cycle of classes in legal logic, also organizing extra classes at the request of students.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer conducted the classes in an understandable way. He presented the criteria, sticking to them through the whole continuity of the classes. He motivated to act, despite the late afternoon hours. He encouraged to understand the material, even though it is quite complicated. Moreover it should be mentioned about the amazing patience towards the student! Very nice inaugural speech, as well as the farewell one. The enthusiasm and optimism that can be envied and should be learned by everyone present at the classes! :))</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> One of the most pleasant classes, Mr. mgr Wydra showed great understanding, organized extra classes; he has an excellent approach to students.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes with the lecturer were a very interesting experience. Despite the fact that logic is not an easy subject. The knowledge in the classes was given in a very accessible way. I can honestly say that the lecturer should get "6+" (for giving "pluses" on classes as well). Summing up, it was very good for me to attend these classes.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra surprised me positively, especially his openness, communicativeness and focus on the student. Always willing to help and talk.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Wydra conducted his classes in a way that encouraged thinking. He motivated and explained very understandably. I will remember these classes for a long time, because they were the best I have experienced so far. The pleasant atmosphere made that you didn’t want to skip these classes.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> A golden person. Going to logic classes was a pleasure :)</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The best lecturer at the university!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were held in a very comfortable and supportive atmosphere, which made it easier to absorb even the most difficult issues. The material was presented in an understandable way, so everyone could take valuable knowledge from the classes. The lecturer showed huge engagement. From the classes you could not only gain knowledge, but also valuable tips and advice. The lecturer gave a lot from himself, also showed us a lot of respect and support in such a difficult subject, which not everyone was able to understand just like that. I remember the classes with mgr Jędrzej Wydra very fondly.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> A very good lecturer who understands students and helps.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very pleasant atmosphere in the classes, favorable to learning.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Wonderful lecturer, always found time for consultations even when he didn’t have office hours.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted by Mr. Wydra were, without a doubt, some of the best I had the chance to attend. The lecturer was always perfectly prepared for classes, and despite the large number of people in the group, he devoted as much time as needed to each person to fully understand the material. He always treated us with great respect. The lessons were not only interesting but also conducted in a way that combined reliable realization of the program with time for laughter, numerous questions and countless discussions. Although I didn’t always feel like going to the university, the classes with Mr. Wydra I considered mandatory – not because they were about logic, but because they were exceptional. It was the perfect combination of learning and joy, which is extremely rare in academic classes. Thanks to Mr. Wydra it was possible to create a space where gaining knowledge was a real pleasure, and such atmosphere is something very few lecturers can achieve.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer passed knowledge in a very friendly way.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Thanks to the lecturer’s huge engagement, I came to the classes with pleasure, not just out of duty.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Great lecturer, if everyone was like that the world would be perfect.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> A lecturer with a wonderful personality, for whom every student is important. You gladly went to these classes!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Huge knowledge, very interesting and nice approach to the student. For my questions the answer was immediately on Teams.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra is the best lecturer I had the pleasure to have classes with.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very good approach and excellent contact with the student.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Great approach to students, creatively conducted classes and positive vibe.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra is definitely one of the best lecturers I have met at UAM. He can approach students well and conduct classes in an interesting way, and there was never a situation where his classes didn’t teach me something that broadened my horizons. He inspires students, encourages learning and gives faith that there is a place for openness and independent thinking at this university.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were very pleasant and understandable, I learned a lot.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Perfectly prepared classes. The lecturer very friendly to students, stimulating activity and rewarding efforts. Explained difficult issues in an accessible way.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Wydra is great, let him not change, his sense of humor is just one of his many advantages.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Great classes !!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Great lecturer, with huge respect for students. Very understandable teaching style and willingness to organize extra improving lectures and discussions. Providing additional learning materials, a set of exercises and clear and accessible passing conditions.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra conducted the classes in an interesting way, often expanding the scope of the lectures with fascinating topics that broadened our knowledge.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> These were some of the best classes I had at the university. High culture and great approach to students distinguished these classes. The lecturer was one of the best I have dealt with – I went to his classes with a smile and always looked forward to the next ones, knowing that I would learn a lot. Thanks to the exceptional atmosphere, time in the classes passed too quickly, and it’s a pity, because I would like them to last longer. I consider the methods of passing knowledge the best I have encountered so far, and the lecturer’s engagement was at a level I had not experienced before.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Really great lecturer, wish there were more like that! The approach to students and in general to everything during classes etc.? Perfect!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were conducted in an interesting and original way. Mr. Jędrzej in the classes was very kind and open to students.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The best conducted classes this semester – both in terms of content and the lecturer.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> a bit mixed feelings, very good approach to students, availability of extra classes, student support, pluses, activity from both sides, good atmosphere, however the passing conditions described in my opinion were off, and the material covered was too much towards mathematical than legal, compared to the lecture material I think it was not fitting for law studies, I think it should be taken into account, the substantive level of classes in my opinion could cause problems.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted by Mr. Wydra were truly epic. Every topic was discussed thoroughly. There was time for students’ questions. Every unclear thing was immediately explained. I recommend the lecturer.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I have nothing to blame the lecturer for, I gained skills from him that will be needed to pass the exam from the lecture. Besides, the lecturer was open to discussion, new ideas and a completely new way of thinking. I think these were academic-level classes.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr. Wydra conducted the classes beyond my expectations. He also helped me many times via emails, where he explained the material in a very accessible way.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> An amazing lecturer and person. He has a truly empathetic approach to students (yet he is not lenient towards them), you could count on his help with problems solving logic tasks and beyond, even after classes ended. This accessibility is even more admirable when you consider the amount of duties (related to further scientific development in psychology, criminology and law) that this lecturer has. His lectures were conducted in a charismatic and humorous way (they were truly epic), and often questions were asked to give us new perspectives on the discussed issue. These questions well showed the purpose of these classes, which was to acquire practical skills in using knowledge of legal logic and truly understanding it, not just memorizing formulas. It was clear that the lecturer puts his whole heart into teaching and I regret that this subject doesn’t last for the whole 5 years of master studies.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Every class was conducted in a clear and interesting way. You could contact the lecturer at any time and ask for additional explanations. The presented examples turned out to be very practical in the next stages of learning.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Well conducted classes, they made logic and law interesting. Only minus for too far-reaching digressions from the topic of classes and inability to stop unnecessary student discussions.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> In my opinion, Mr. Jędrzej Wydra is one of the most charismatic and interesting lecturers I have met so far. If you are reading this, warm greetings!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes that took place, despite difficulties in understanding, always brought positive effects. Due to the active form of conducting them, asking questions was not difficult. Effective approach to students, both in the room and individually. You could always freely talk about any problem and when the material was too difficult there was a possibility of individual meetings during classes.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were very pleasant, conducted in a good atmosphere. The discussed tasks often encouraged discussions with the lecturer, who was open to students' opinions.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very good, open and honest attitude towards students. Comfortable atmosphere of classes, great emphasis on own activity and form of conversation between lecturer and student. Very high substantive level of classes.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer was able to make us interested in logic. He appreciated activity, which caused greater student engagement in the subject. The unconventional way of conducting and the lecturer’s creativity definitely confirm his skills as a very good expert in his field.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Magister Wydra is one of the better exercise lecturers, I am very glad that I could have him.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very interesting classes in a very nice atmosphere :)</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I rate the overall classes 5 plus. It would be best if the lecturer didn’t change anything in the content that encourages thinking, the form, or his approach to students. I wish there were more classes like this.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very good contact with Mr. Magister. Mr. Wydra encouraged a lot to be active. I am glad that during classes we did not solve typical tasks, but those that made us think more. Mr. Magister is a very nice person, with a great "youthful" approach to students.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very interesting classes, motivating to think. And at the same time a very good lecturer, clearly explaining all issues and always helping in case of doubts.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Absolutely phenomenal lecturer. Definitely raises the average lecturer rating at this faculty. Great conducted classes, brilliant communication and engagement.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer impressed and inspired with his engagement. One of the best educators I have dealt with. I am deeply grateful to him for making a subject that seemed a bit boring and scary into something fascinating.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I gladly participated in these classes, I gained a lot from them. The classes were conducted in a really interesting and understandable way.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Favorite classes.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted in an interesting way, I felt comfortable in them.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Phenomenal lecturer, classes conducted interestingly, it made you want to come, listen and actively participate. The lecturer was able to present difficult things in an accessible and understandable way.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Great lecturer!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> The assessment was done in a way leaving much to be desired, the exam had 343 points, with questions themselves worth only 1 or 0.5 points, which were then multiplied. Interesting system of benefits for activity during classes, no one felt left out.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> As a student I am satisfied with the way knowledge was passed in this subject, because it is quite complicated and ambiguous for everyone. The lecturer encouraged students a lot to be active during classes, which he always rewarded with pluses, even when the student’s reasoning was not good. I would also like to emphasize that communication with the lecturer always went stress-free and smoothly.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> I attended the classes with pleasure, the lecturer presented the material in an interesting way,</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Very talented teacher!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes were conducted in a friendly and accessible way for students, served as a great complement to the lecture and created the possibility to practice the subject topics. Students were encouraged to be active and work regularly through the possibility of gaining extra points for the exam.</p>
-
+<p><br/>*<i>All opinions were written in Polish. They were translated into English using ChatGPT.</i>
+<!-- Przewijalna lista wszystkich opinii -->
+<div class="opinions-list">
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Great classes, practical knowledge.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> One of the more interesting classes, that it was a shame not to come to. Mr. Wydra with his charisma made that 1,5 hour was spent not only in a hardworking but also interesting way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Workshops with Mr. Magister were one of the most interesting during the studies.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes led by Mr. Jędrzej Wydra were extremely interesting. Already from the first moments you could see that he puts into his work a huge amount of energy and engagement. His full of passion attitude made that classes were not only substantive, but also inspiring and dynamic.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra is the best lecturer so far!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I think it was the best classes in the whole semester. A lot of knowledge, and on top of that given in a very interesting way. Classes conducted with openness, without compulsion and with a smile.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I think that the classes were conducted in a way friendly for students, without stress and in a nice atmosphere. I willingly attended the classes because of the knowledge that was provided, which was reliable. The lecturer himself very energetic and at the same time creative. Each class was conducted according to the needs of the students and it was possible to use the knowledge and help of the lecturer.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> fantastically conducted classes, a lot of material, lecturer engaged, helpful and patient. big plus</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. mgr was very engaged in the lessons and made me look different at logic. I really regret that we finished logic. Mr. mgr was very engaged in the lessons and made me look different at logic. I really regret that we finished logic.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra is a wonderful person, very understanding and positively oriented to all people he taught. Even if sometimes it happened that some part of the material was not understood, Mr. Jędrzej calmly explained all doubts. His approach to teaching allows to keep an individual pace of learning for each person, without losses in the material.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The best lecturer I had the chance to meet. Mr. Wydra has a wonderful approach to students, very precisely and clearly discusses the material, cares that students understand the issues and can handle them on the exam. He is an extremely charismatic and open person, provides students with stress-free and very effective learning of knowledge.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra was a lecturer worthy of this university. Great classes, where everyone felt good, without stress and with wonderful approach to each person. It was a very interesting time and when the time of the last classes came I was sad that it is already the end, and it is worth to mention that logic is not one of my favourite subjects. Mr. Jędrzej is a wonderful person and even better lecturer.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I never thought I would meet at the university such an outstanding lecturer as Mr. Jędrzej Wydra. Very open, funny and experienced person, he is a role model and his presence colored logic, which was incomprehensible for me. The approach to topics was very creative and inventive, Mr. Wydra explained the content until it was understood and gave many chances to understand his subject. Especially for us he even organized an extra meeting before the exam. His engagement delights me, as well as the fact that he was able to remember the names of some people to make contact with students. He will remain the best remembered lecturer for me and the most engaged teacher.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes with such lecturer caused in me an interest in the subject and attending them was pure pleasure. The ability to pass knowledge in an interesting way and the competence of mgr Wydra are unbeatable.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Despite the difficult subject, the lecturer in an excellent and above all understandable way conducted the cycle of classes in legal logic, also organizing extra classes at the request of students.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer conducted the classes in an understandable way. He presented the criteria, sticking to them through the whole continuity of the classes. He motivated to act, despite the late afternoon hours. He encouraged to understand the material, even though it is quite complicated. Moreover it should be mentioned about the amazing patience towards the student! Very nice inaugural speech, as well as the farewell one. The enthusiasm and optimism that can be envied and should be learned by everyone present at the classes! :))</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> One of the most pleasant classes, Mr. mgr Wydra showed great understanding, organized extra classes; he has an excellent approach to students.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes with the lecturer were a very interesting experience. Despite the fact that logic is not an easy subject. The knowledge in the classes was given in a very accessible way. I can honestly say that the lecturer should get "6+" (for giving "pluses" on classes as well). Summing up, it was very good for me to attend these classes.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra surprised me positively, especially his openness, communicativeness and focus on the student. Always willing to help and talk.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Wydra conducted his classes in a way that encouraged thinking. He motivated and explained very understandably. I will remember these classes for a long time, because they were the best I have experienced so far. The pleasant atmosphere made that you didn’t want to skip these classes.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> A golden person. Going to logic classes was a pleasure :)</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The best lecturer at the university!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were held in a very comfortable and supportive atmosphere, which made it easier to absorb even the most difficult issues. The material was presented in an understandable way, so everyone could take valuable knowledge from the classes. The lecturer showed huge engagement. From the classes you could not only gain knowledge, but also valuable tips and advice. The lecturer gave a lot from himself, also showed us a lot of respect and support in such a difficult subject, which not everyone was able to understand just like that. I remember the classes with mgr Jędrzej Wydra very fondly.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> A very good lecturer who understands students and helps.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very pleasant atmosphere in the classes, favorable to learning.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Wonderful lecturer, always found time for consultations even when he didn’t have office hours.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted by Mr. Wydra were, without a doubt, some of the best I had the chance to attend. The lecturer was always perfectly prepared for classes, and despite the large number of people in the group, he devoted as much time as needed to each person to fully understand the material. He always treated us with great respect. The lessons were not only interesting but also conducted in a way that combined reliable realization of the program with time for laughter, numerous questions and countless discussions. Although I didn’t always feel like going to the university, the classes with Mr. Wydra I considered mandatory – not because they were about logic, but because they were exceptional. It was the perfect combination of learning and joy, which is extremely rare in academic classes. Thanks to Mr. Wydra it was possible to create a space where gaining knowledge was a real pleasure, and such atmosphere is something very few lecturers can achieve.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer passed knowledge in a very friendly way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Thanks to the lecturer’s huge engagement, I came to the classes with pleasure, not just out of duty.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Great lecturer, if everyone was like that the world would be perfect.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> A lecturer with a wonderful personality, for whom every student is important. You gladly went to these classes!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Huge knowledge, very interesting and nice approach to the student. For my questions the answer was immediately on Teams.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra is the best lecturer I had the pleasure to have classes with.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very good approach and excellent contact with the student.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Great approach to students, creatively conducted classes and positive vibe.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Jędrzej Wydra is definitely one of the best lecturers I have met at UAM. He can approach students well and conduct classes in an interesting way, and there was never a situation where his classes didn’t teach me something that broadened my horizons. He inspires students, encourages learning and gives faith that there is a place for openness and independent thinking at this university.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were very pleasant and understandable, I learned a lot.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Perfectly prepared classes. The lecturer very friendly to students, stimulating activity and rewarding efforts. Explained difficult issues in an accessible way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mr. Wydra is great, let him not change, his sense of humor is just one of his many advantages.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Great classes !!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Great lecturer, with huge respect for students. Very understandable teaching style and willingness to organize extra improving lectures and discussions. Providing additional learning materials, a set of exercises and clear and accessible passing conditions.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra conducted the classes in an interesting way, often expanding the scope of the lectures with fascinating topics that broadened our knowledge.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> These were some of the best classes I had at the university. High culture and great approach to students distinguished these classes. The lecturer was one of the best I have dealt with – I went to his classes with a smile and always looked forward to the next ones, knowing that I would learn a lot. Thanks to the exceptional atmosphere, time in the classes passed too quickly, and it’s a pity, because I would like them to last longer. I consider the methods of passing knowledge the best I have encountered so far, and the lecturer’s engagement was at a level I had not experienced before.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Really great lecturer, wish there were more like that! The approach to students and in general to everything during classes etc.? Perfect!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were conducted in an interesting and original way. Mr. Jędrzej in the classes was very kind and open to students.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The best conducted classes this semester – both in terms of content and the lecturer.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> a bit mixed feelings, very good approach to students, availability of extra classes, student support, pluses, activity from both sides, good atmosphere, however the passing conditions described in my opinion were off, and the material covered was too much towards mathematical than legal, compared to the lecture material I think it was not fitting for law studies, I think it should be taken into account, the substantive level of classes in my opinion could cause problems.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted by Mr. Wydra were truly epic. Every topic was discussed thoroughly. There was time for students’ questions. Every unclear thing was immediately explained. I recommend the lecturer.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I have nothing to blame the lecturer for, I gained skills from him that will be needed to pass the exam from the lecture. Besides, the lecturer was open to discussion, new ideas and a completely new way of thinking. I think these were academic-level classes.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr. Wydra conducted the classes beyond my expectations. He also helped me many times via emails, where he explained the material in a very accessible way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> An amazing lecturer and person. He has a truly empathetic approach to students (yet he is not lenient towards them), you could count on his help with problems solving logic tasks and beyond, even after classes ended. This accessibility is even more admirable when you consider the amount of duties (related to further scientific development in psychology, criminology and law) that this lecturer has. His lectures were conducted in a charismatic and humorous way (they were truly epic), and often questions were asked to give us new perspectives on the discussed issue. These questions well showed the purpose of these classes, which was to acquire practical skills in using knowledge of legal logic and truly understanding it, not just memorizing formulas. It was clear that the lecturer puts his whole heart into teaching and I regret that this subject doesn’t last for the whole 5 years of master studies.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Every class was conducted in a clear and interesting way. You could contact the lecturer at any time and ask for additional explanations. The presented examples turned out to be very practical in the next stages of learning.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Well conducted classes, they made logic and law interesting. Only minus for too far-reaching digressions from the topic of classes and inability to stop unnecessary student discussions.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> In my opinion, Mr. Jędrzej Wydra is one of the most charismatic and interesting lecturers I have met so far. If you are reading this, warm greetings!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes that took place, despite difficulties in understanding, always brought positive effects. Due to the active form of conducting them, asking questions was not difficult. Effective approach to students, both in the room and individually. You could always freely talk about any problem and when the material was too difficult there was a possibility of individual meetings during classes.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The classes were very pleasant, conducted in a good atmosphere. The discussed tasks often encouraged discussions with the lecturer, who was open to students' opinions.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very good, open and honest attitude towards students. Comfortable atmosphere of classes, great emphasis on own activity and form of conversation between lecturer and student. Very high substantive level of classes.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer was able to make us interested in logic. He appreciated activity, which caused greater student engagement in the subject. The unconventional way of conducting and the lecturer’s creativity definitely confirm his skills as a very good expert in his field.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Magister Wydra is one of the better exercise lecturers, I am very glad that I could have him.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very interesting classes in a very nice atmosphere :)</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I rate the overall classes 5 plus. It would be best if the lecturer didn’t change anything in the content that encourages thinking, the form, or his approach to students. I wish there were more classes like this.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very good contact with Mr. Magister. Mr. Wydra encouraged a lot to be active. I am glad that during classes we did not solve typical tasks, but those that made us think more. Mr. Magister is a very nice person, with a great "youthful" approach to students.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very interesting classes, motivating to think. And at the same time a very good lecturer, clearly explaining all issues and always helping in case of doubts.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Absolutely phenomenal lecturer. Definitely raises the average lecturer rating at this faculty. Great conducted classes, brilliant communication and engagement.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The lecturer impressed and inspired with his engagement. One of the best educators I have dealt with. I am deeply grateful to him for making a subject that seemed a bit boring and scary into something fascinating.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I gladly participated in these classes, I gained a lot from them. The classes were conducted in a really interesting and understandable way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Favorite classes.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes conducted in an interesting way, I felt comfortable in them.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Phenomenal lecturer, classes conducted interestingly, it made you want to come, listen and actively participate. The lecturer was able to present difficult things in an accessible and understandable way.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Great lecturer!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> The assessment was done in a way leaving much to be desired, the exam had 343 points, with questions themselves worth only 1 or 0.5 points, which were then multiplied. Interesting system of benefits for activity during classes, no one felt left out.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> As a student I am satisfied with the way knowledge was passed in this subject, because it is quite complicated and ambiguous for everyone. The lecturer encouraged students a lot to be active during classes, which he always rewarded with pluses, even when the student’s reasoning was not good. I would also like to emphasize that communication with the lecturer always went stress-free and smoothly.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> I attended the classes with pleasure, the lecturer presented the material in an interesting way,</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Very talented teacher!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Classes were conducted in a friendly and accessible way for students, served as a great complement to the lecture and created the possibility to practice the subject topics. Students were encouraged to be active and work regularly through the possibility of gaining extra points for the exam.</p>
 <p style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/tree/main/Opinions_of_students" target="_blank" class="w3-button w3-green w3-round w3-hover-dark-grey" style="box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-    <i class="fa-brands fa-github" style="margin-right: 8px;"></i>
-    See original reviews in Polish (screenshots)
-  </a>
+<a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/tree/main/Opinions_of_students" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materials</a>
 </p>
-
-
-      <!-- Dodajesz dalej aż do 100 opinii -->
-    </div>
-
-    <!-- Można dodać krótki tekst końcowy -->
-    <p style="margin-top:16px;">
-      <em>Thank you to all my students for sharing their thoughts!</em>
-    </p>
-
-  </div>
+<!-- Dodajesz dalej aż do 100 opinii -->
+</div>
+<!-- Można dodać krótki tekst końcowy -->
+<p style="margin-top:16px;">
+<em>Thank you to all my students for sharing their thoughts!</em>
+</p>
+</p></div>
 </div>
 <!-- === END: MODAL "All Students' Opinions" === -->
 <script>
@@ -475,6 +399,5 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 </body>
 </html>

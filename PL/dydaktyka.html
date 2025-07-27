@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 <title>Jędrzej Wydra</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <!-- <link rel="stylesheet" href="css/styles.css"> -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
@@ -45,261 +46,199 @@ function toggleTheme() {
 </script>
 </head>
 <body style="background-color: #4a4a4a">
-
 <!-- Pasek uproszczony dla małych ekranów -->
 <div class="w3-bar w3-green w3-hide-medium w3-hide-large">
-  <!-- Hamburger po lewej -->
-  <button class="w3-bar-item w3-button" onclick="toggleSidebar()">
-    <i class="fa fa-bars"></i>
-  </button>
-  <!-- Po prawej przycisk zmiany motywu -->
-  <button class="w3-bar-item w3-button w3-right" onclick="toggleTheme()">
-    <i class="fa fa-moon"></i>
-  </button>
-  <!-- Po prawej link do ENG -->
-  <a href="../didactics.html" class="w3-bar-item w3-button w3-right">ENG</a>
+<!-- Hamburger po lewej -->
+<button class="w3-bar-item w3-button" onclick="toggleSidebar()">
+<i class="fa fa-bars"></i>
+</button>
+<!-- Po prawej przycisk zmiany motywu -->
+<button class="w3-bar-item w3-button w3-right" onclick="toggleTheme()">
+<i class="fa fa-moon"></i>
+</button>
+<!-- Po prawej link do ENG -->
+<a class="w3-bar-item w3-button w3-right" href="../didactics.html">ENG</a>
 </div>
-
 <!-- Sidebar menu dla małych ekranów -->
-<nav class="w3-sidebar w3-bar-block w3-green w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mobileSidebar">
-  <a href="../PL/aktualnosci.html" class="w3-bar-item w3-button">Aktualności</a>
-  <a href="../PL/publikacje.html" class="w3-bar-item w3-button">Publikacje</a>
-  <a href="../PL/CV.html" class="w3-bar-item w3-button">CV</a>
-  <a href="../PL/dydaktyka.html" class="w3-bar-item w3-button active">Dydaktyka</a>
-  <a href="https://github.com/Jedrzej-Wydra" target="_blank" class="w3-bar-item w3-button">GitHub Repo</a>
-  <a href="https://sicss-amulaw.github.io" target="_blank" class="w3-bar-item w3-button">SICSS-AMU/Law</a>
+<nav class="w3-sidebar w3-bar-block w3-green w3-animate-left w3-hide-medium w3-hide-large" id="mobileSidebar" style="display:none">
+<a class="w3-bar-item w3-button" href="../PL/aktualnosci.html">Aktualności</a>
+<a class="w3-bar-item w3-button" href="../PL/publikacje.html">Publikacje</a>
+<a class="w3-bar-item w3-button" href="../PL/CV.html">CV</a>
+<a class="w3-bar-item w3-button active" href="../PL/dydaktyka.html">Dydaktyka</a>
+<a class="w3-bar-item w3-button" href="https://github.com/Jedrzej-Wydra" target="_blank">GitHub Repo</a>
+<a class="w3-bar-item w3-button" href="https://sicss-amulaw.github.io" target="_blank">SICSS-AMU/Law</a>
 </nav>
-
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
 <nav class="w3-bar w3-green w3-card-4 w3-margin-bottom w3-hide-small">
-  <a href="javascript:void(0);" onclick="toggleTheme()" class="w3-bar-item w3-button w3-right">
-    <i class="fa fa-moon"></i>
-  </a>
-  <a href="../didactics.html" class="w3-bar-item w3-button w3-right">ENG</a>
-  <a href="https://sicss-amulaw.github.io" target="_blank" class="w3-bar-item w3-button w3-right">SICSS-AMU/Law</a>
-  <a href="https://github.com/Jedrzej-Wydra" target="_blank" class="w3-bar-item w3-button w3-right">GitHub Repo</a>
-  <a href="../PL/dydaktyka.html" class="w3-bar-item w3-button w3-right active">Dydaktyka</a>
-  <a href="../PL/CV.html" class="w3-bar-item w3-button w3-right">CV</a>
-  <a href="../PL/publikacje.html" class="w3-bar-item w3-button w3-right">Publikacje</a>
-  <a href="../PL/aktualnosci.html" class="w3-bar-item w3-button w3-right">Aktualności</a>
+<a class="w3-bar-item w3-button w3-right" href="javascript:void(0);" onclick="toggleTheme()">
+<i class="fa fa-moon"></i>
+</a>
+<a class="w3-bar-item w3-button w3-right" href="../didactics.html">ENG</a>
+<a class="w3-bar-item w3-button w3-right" href="https://sicss-amulaw.github.io" target="_blank">SICSS-AMU/Law</a>
+<a class="w3-bar-item w3-button w3-right" href="https://github.com/Jedrzej-Wydra" target="_blank">GitHub Repo</a>
+<a class="w3-bar-item w3-button w3-right active" href="../PL/dydaktyka.html">Dydaktyka</a>
+<a class="w3-bar-item w3-button w3-right" href="../PL/CV.html">CV</a>
+<a class="w3-bar-item w3-button w3-right" href="../PL/publikacje.html">Publikacje</a>
+<a class="w3-bar-item w3-button w3-right" href="../PL/aktualnosci.html">Aktualności</a>
 </nav>
-
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-
-
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="../images/jw.jpg" style="width:100%" alt="J.W.">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h3>Jędrzej Wydra</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-        <br>
-
-          
-<div style="text-align: center;">
-      <a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
-      <i class="fa-solid fa-envelope fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a> 
-      <a href="https://www.facebook.com/jedrzej.wydra/" target=blank_>
-      <i class="fa-brands fa-facebook fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
-      <i class="fa-brands fa-linkedin fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://medium.com/@ww.jedrzej" target="_blank">
-      <i class="fa-brands fa-medium fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-researchgate fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://github.com/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-github fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
-      <a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
-      <i class="fa-brands fa-orcid fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a><br><br>
+<!-- The Grid -->
+<div class="w3-row-padding">
+<!-- Left Column -->
+<div class="w3-third">
+<div class="w3-white w3-text-grey w3-card-4">
+<div class="w3-display-container">
+<img alt="J.W." src="../images/jw.jpg" style="width:100%"/>
+<div class="w3-display-bottomleft w3-container w3-text-black">
+<h3>Jędrzej Wydra
+</h3></div>
 </div>
-          
-          
-        </div>
-      </div><br>
-
-
+<div class="w3-container">
+<br/>
+<div style="text-align: center;">
+<a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
+<i class="fa-solid fa-envelope fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://www.facebook.com/jedrzej.wydra/" target="blank_">
+<i class="fa-brands fa-facebook fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
+<i class="fa-brands fa-linkedin fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://medium.com/@ww.jedrzej" target="_blank">
+<i class="fa-brands fa-medium fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-researchgate fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://github.com/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-github fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a>
+<a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
+<i class="fa-brands fa-orcid fa-fw w3-text-green fa-lg" style="margin: 0 5px;"></i></a><br/><br/>
+</div>
+</div>
+</div><br/>
 <div class="w3-white w3-text-grey w3-card-4">
-        
-        <div class="w3-container">
-        <p class="w3-large w3-text-theme"><b><i class="fa-solid fa-forward-fast fa-fw w3-margin-right w3-text-green"></i>Krótko o doświadczeniu</b></p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Sześć publikacji naukowych;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 20 projektów z zakresu data science i analizy danych;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 30 repozytoriów na GitHubie;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 120 projektów zrealizowanych na DataCamp;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 200 ukończonych kursów z zakresu data science;</p>
-          <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Opisywany przez studentów jako najbardziej charyzmatyczny wykładowca na wydziale.</p>      
-          <br>
-        </div>
-      </div><br>
-
+<div class="w3-container">
+<p class="w3-large w3-text-theme"><b><i class="fa-solid fa-forward-fast fa-fw w3-margin-right w3-text-green"></i>Krótko o doświadczeniu</b></p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Sześć publikacji naukowych;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 20 projektów z zakresu data science i analizy danych;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 30 repozytoriów na GitHubie;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 120 projektów zrealizowanych na DataCamp;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 200 ukończonych kursów z zakresu data science;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Opisywany przez studentów jako najbardziej charyzmatyczny wykładowca na wydziale.</p>
+<br/>
+</div>
+</div><br/>
 <div class="w3-white w3-text-grey w3-card-4">
-  <div class="w3-container">
-    <p class="w3-large w3-text-theme">
-      <b><i class="fa-solid fa-comment fa-fw w3-margin-right w3-text-green"></i>Opinie Studentów</b>
-    </p>
-
-    <!-- Wybrane krótkie opinie -->
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepszy prowadzący jakiego miałam okazję poznać. Pan Wydra ma wspaniałe podejście do studentów, bardzo dokładnie i przejrzyście omawia materiał, dba o to aby studenci zrozumieli zagadnienia i potrafili poradzić sobie z nimi na zaliczeniu. Jest to osoba niezwykle charyzmatyczna i otwarta, zapewnia studentom bezstresowe i bardzo efektywne przyswajanie wiedzy.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący zajęcia imponował i inspirował swoim zaangażowaniem. Jeden z najlepszych pedagogów, z jakim miałem do czynienia. Jestem mu głęboko wdzięczny, że przedmiot, który wydawał się nieco nudny i straszny uczynił fascynującym.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Jedne z ciekawszych zajęć, na które aż żal było nie przychodzić. Mgr Wydra swoją charyzmą powodował, że te 1,5 godziny były spędzone nie tylko w pracowity, ale również interesujący sposób.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra był wykładowcą na miarę tego uniwersytetu. Świetne ćwiczenia, na których każdy czuł się dobrze, bez stresu a z cudownym podejściem do każdego. To był bardzo ciekawy czas i kiedy nadszedł czas ostatnich ćwiczeń było mi przykro, że to już koniec, a warto wspomnieć, że logika nie należy do moich ulubionych przedmiotów. Pan Jędrzej to cudowny człowiek i jeszcze lepszy wykładowca.</p>
-
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra prowadził zajęcia w sposób interesujący, często poszerzając zakres wykładów o interesujące zagadnienia poszerzające naszą wiedzę.</p>
- 
-    <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez pana Wydrę były iście epickie. Każde z zagadnień było omówione dokładnie. Był czas na pytania studentów. Każda niejasność była natychmiast wyjaśniania. Polecam prowadzącego.</p>
-
-    
-
-    <!-- Przycisk Show More w tym samym stylu -->
-    <p>
-      <button 
-        onclick="document.getElementById('opinie-studentow').style.display='block'" 
-        class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" 
-        style="margin-top:10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-        <i class="fa-solid fa-circle-plus" style="margin-right:6px;"></i>
+<div class="w3-container">
+<p class="w3-large w3-text-theme">
+<b><i class="fa-solid fa-comment fa-fw w3-margin-right w3-text-green"></i>Opinie Studentów</b>
+</p>
+<!-- Wybrane krótkie opinie -->
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepszy prowadzący jakiego miałam okazję poznać. Pan Wydra ma wspaniałe podejście do studentów, bardzo dokładnie i przejrzyście omawia materiał, dba o to aby studenci zrozumieli zagadnienia i potrafili poradzić sobie z nimi na zaliczeniu. Jest to osoba niezwykle charyzmatyczna i otwarta, zapewnia studentom bezstresowe i bardzo efektywne przyswajanie wiedzy.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący zajęcia imponował i inspirował swoim zaangażowaniem. Jeden z najlepszych pedagogów, z jakim miałem do czynienia. Jestem mu głęboko wdzięczny, że przedmiot, który wydawał się nieco nudny i straszny uczynił fascynującym.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Jedne z ciekawszych zajęć, na które aż żal było nie przychodzić. Mgr Wydra swoją charyzmą powodował, że te 1,5 godziny były spędzone nie tylko w pracowity, ale również interesujący sposób.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra był wykładowcą na miarę tego uniwersytetu. Świetne ćwiczenia, na których każdy czuł się dobrze, bez stresu a z cudownym podejściem do każdego. To był bardzo ciekawy czas i kiedy nadszedł czas ostatnich ćwiczeń było mi przykro, że to już koniec, a warto wspomnieć, że logika nie należy do moich ulubionych przedmiotów. Pan Jędrzej to cudowny człowiek i jeszcze lepszy wykładowca.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra prowadził zajęcia w sposób interesujący, często poszerzając zakres wykładów o interesujące zagadnienia poszerzające naszą wiedzę.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez pana Wydrę były iście epickie. Każde z zagadnień było omówione dokładnie. Był czas na pytania studentów. Każda niejasność była natychmiast wyjaśniania. Polecam prowadzącego.</p>
+<!-- Przycisk Show More w tym samym stylu -->
+<p>
+<button class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" onclick="document.getElementById('opinie-studentow').style.display='block'" style="margin-top:10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+<i class="fa-solid fa-circle-plus" style="margin-right:6px;"></i>
         Pokaż więcej
       </button>
-    </p>
-    <br>
-  </div>
+</p>
+<br/>
 </div>
-
-
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-  
-
+</div>
+<!-- End Left Column -->
+</div>
+<!-- Right Column -->
+<div class="w3-twothird">
 <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-building-columns fa-fw w3-margin-right w3-xxlarge w3-text-green"></i> Wykłady </h2>
-
+<h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-building-columns fa-fw w3-margin-right w3-xxlarge w3-text-green"></i> Wykłady </h2>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b>Elementy Statystyki</b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Maj 2025 - Czerwiec 2025</h6>
-          <br>
-        </div>
-
+<h5 class="w3-opacity"><b>Elementy Statystyki</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Maj 2025 - Czerwiec 2025</h6>
+<br/>
+</div>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b>Wprowadzenie do Data Science</b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2025 - Kwiecień 2025</h6>
-          <br>
-        </div>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Programowanie w języku Python</b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2024 - Luty 2025</h6>
-          <br>
-        </div>
-      </div>
-
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-chalkboard-user fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Ćwiczenia i konwersatoria</h2>
-
+<h5 class="w3-opacity"><b>Wprowadzenie do Data Science</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2025 - Kwiecień 2025</h6>
+<br/>
+</div>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b> Prawo Sztucznej Inteligencji </b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2025 - Luty 2026</h6>
-          <br>
-        </div>
-
-<div class="w3-container">
-          <h5 class="w3-opacity"><b>  Ślady kryminalistyczne – dowodzenie </b></h5>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2025 - Czerwiec 2025</h6>
-          <br>
-        </div>
-
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Logika prawnicza</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2022 - Luty 2023</h6>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Październik 2023 - Luty 2024</h6>
-	  <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Październik 2024 - Luty 2025</h6>
-	<p>materiały: <a href="https://github.com/Jedrzej-Wydra/logic-for-lawyers" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-          
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Logika praktyczna</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Październik 2022 - Luty 2023</h6>
-<p>materiały: <a href="https://github.com/Jedrzej-Wydra/practical-logic" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-          <br>
-        </div>
-      </div>
-
+<h5 class="w3-opacity"><b>Programowanie w języku Python</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2024 - Luty 2025</h6>
+<br/>
+</div>
+</div>
 <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Warsztaty</h2>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Analiza danych dla prawników /<br>SICSS-AMU/Law 2024</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Czerwiec 2024</h6>
-<p>materiały: <a href="https://github.com/SICSS-AMULaw/Edition_2024/tree/main/Workshops" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-          
-          <hr>
-        </div>
+<h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-chalkboard-user fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Ćwiczenia i konwersatoria</h2>
 <div class="w3-container">
-          <h5 class="w3-opacity"><b>Statystyka i uczenie maszynowe dla prawników /<br>SICSS-AMU/Law 2022</b></h5>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Czerwiec 2022</h6>
-	<p>materiały: <a href="https://github.com/SICSS-AMULaw/Edition_2022/tree/main/Workshops" target="_blank">
-      <i class="fa-brands fa-github fa-lg" style="margin: 0 5px;"></i></a></p>
-        <br>
-        </div>
-      
-
+<h5 class="w3-opacity"><b> Prawo Sztucznej Inteligencji </b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2025 - Luty 2026</h6>
+<br/>
 </div>
-
-
-    <!-- End Right Column -->
-    </div>
-    
-
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
+<div class="w3-container">
+<h5 class="w3-opacity"><b>  Ślady kryminalistyczne – dowodzenie </b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Marzec 2025 - Czerwiec 2025</h6>
+<br/>
 </div>
-
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Logika prawnicza</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Październik 2022 - Luty 2023</h6>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Październik 2023 - Luty 2024</h6>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Październik 2024 - Luty 2025</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/Jedrzej-Wydra/logic-for-lawyers" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materiały</a></p>
+<hr/>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Logika praktyczna</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Październik 2022 - Luty 2023</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/Jedrzej-Wydra/practical-logic" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materiały</a></p>
+<br/>
+</div>
+</div>
+<div class="w3-container w3-card w3-white w3-margin-bottom">
+<h2 class="w3-text-grey w3-padding-16"><i class="fa-solid fa-desktop fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Warsztaty</h2>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Analiza danych dla prawników /<br/>SICSS-AMU/Law 2024</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Czerwiec 2024</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/SICSS-AMULaw/Edition_2024/tree/main/Workshops" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materiały</a></p>
+<hr/>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Statystyka i uczenie maszynowe dla prawników /<br/>SICSS-AMU/Law 2022</b></h5>
+<h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Czerwiec 2022</h6>
+<p><a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/SICSS-AMULaw/Edition_2022/tree/main/Workshops" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materiały</a></p>
+<br/>
+</div>
+</div>
+<!-- End Right Column -->
+</div>
+<!-- End Grid -->
+</div>
+<!-- End Page Container -->
+</div>
 <footer class="w3-container w3-green w3-center w3-margin-top">
-  <p>Kontakt</p>
-  <div class="w3-xlarge w3-section">
-    <a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
-      <i class="fa-solid fa-envelope" style="margin: 0 5px;"></i></a> 
-      <a href="https://www.facebook.com/jedrzej.wydra/" target=blank_>
-      <i class="fa-brands fa-facebook" style="margin: 0 5px;"></i></a>
-      <a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
-      <i class="fa-brands fa-linkedin" style="margin: 0 5px;"></i></a>
-      <a href="https://medium.com/@ww.jedrzej" target="_blank">
-      <i class="fa-brands fa-medium" style="margin: 0 5px;"></i></a>
-      <a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-researchgate" style="margin: 0 5px;"></i></a>
-      <a href="https://github.com/Jedrzej-Wydra" target="_blank">
-      <i class="fa-brands fa-github" style="margin: 0 5px;"></i></a>
-      <a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
-      <i class="fa-brands fa-orcid" style="margin: 0 5px;"></i></a>
-  </div>
-  <p>© Copyright 2025 by Jędrzej Wydra<p/>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  <p>Hosted by GitHub Pages</p>
-</footer>
-
+<p>Kontakt</p>
+<div class="w3-xlarge w3-section">
+<a href="mailto:jedrzej.wydra@amu.edu.pl" style="text-decoration: none; color: inherit;">
+<i class="fa-solid fa-envelope" style="margin: 0 5px;"></i></a>
+<a href="https://www.facebook.com/jedrzej.wydra/" target="blank_">
+<i class="fa-brands fa-facebook" style="margin: 0 5px;"></i></a>
+<a href="https://www.linkedin.com/in/jędrzej-wydra-3b12b4232/" target="_blank">
+<i class="fa-brands fa-linkedin" style="margin: 0 5px;"></i></a>
+<a href="https://medium.com/@ww.jedrzej" target="_blank">
+<i class="fa-brands fa-medium" style="margin: 0 5px;"></i></a>
+<a href="https://www.researchgate.net/profile/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-researchgate" style="margin: 0 5px;"></i></a>
+<a href="https://github.com/Jedrzej-Wydra" target="_blank">
+<i class="fa-brands fa-github" style="margin: 0 5px;"></i></a>
+<a href="https://orcid.org/0000-0001-5532-2988" target="_blank">
+<i class="fa-brands fa-orcid" style="margin: 0 5px;"></i></a>
+</div>
+<p>© Copyright 2025 by Jędrzej Wydra<p></p>
+<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<p>Hosted by GitHub Pages</p>
+</p></footer>
 <!-- === START: MODAL "All Students' Opinions" === -->
 <style>
   /* Przyciemnione półprzezroczyste tło za modalem – spójne */
@@ -341,123 +280,108 @@ function toggleTheme() {
     }
   }
 </style>
-
-<div id="opinie-studentow" class="w3-modal" style="display:none">
-  <div class="w3-modal-content w3-animate-opacity w3-round-large custom-modal-content">
-       
-    <!-- Zamknięcie -->
-    <span onclick="document.getElementById('opinie-studentow').style.display='none'" 
-          class="w3-button w3-display-topright">&times;</span>
-          
-    <!-- Tytuł modala -->
-    <h4 class="w3-text-green" style="margin-top:0; margin-bottom:16px;">
-      <i class="fa-solid fa-users" style="margin-right:6px;"></i>
+<div class="w3-modal" id="opinie-studentow" style="display:none">
+<div class="w3-modal-content w3-animate-opacity w3-round-large custom-modal-content">
+<!-- Zamknięcie -->
+<span class="w3-button w3-display-topright" onclick="document.getElementById('opinie-studentow').style.display='none'">×</span>
+<!-- Tytuł modala -->
+<h4 class="w3-text-green" style="margin-top:0; margin-bottom:16px;">
+<i class="fa-solid fa-users" style="margin-right:6px;"></i>
       Opinie Studentów
     </h4>
-    
-    <p>
-      Wszystkie opinie z ankiet studentów.<br>
+<p>
+      Wszystkie opinie z ankiet studentów.<br/>
       (Ankiety były dobrowolne i anonimowe).
     </p>
-
-    <!-- Przewijalna lista wszystkich opinii -->
-    <div class="opinions-list">
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetne zajęcia, praktyczna wiedza.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Jedne z ciekawszych zajęć, na które aż żal było nie przychodzić. Mgr Wydra swoją charyzmą powodował, że te 1,5 godziny były spędzone nie tylko w pracowity, ale również interesujący sposób.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Warsztaty z Panem Magistrem były jednymi z najciekawszych w toku studiów.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez Pans Jędrzeja Wydrę były niezwykle interesujące. Już od pierwszych chwil można było dostrzec, że wkłada w swoją pracę ogrom energii i zaangażowania. Jego pełna pasji postawa sprawiała, że zajęcia były nie tylko merytoryczne, ale również inspirujące i dynamiczne.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra to najlepszy prowadzący do tej pory!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Uważam, że to były najlepsze zajęcia w całym semestrze. Mnóstwo wiedzy, a na dodatek przekazana w bardzo interesujący sposób. Zajęcia prowadzone z otwartością, bez przymusu i z uśmiechem.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Uwazam, ze zajęcia były prowadzone w sposób przyjazny dla studentów, bez stresu oraz w miłej atmosferze. Chętnie uczęszczałam na zajęcia ze względu na przekazana wiedzę, która była rzetelna. Sam wykładowca bardzo energiczny a zarazem pomysłowy. Każde zajęcia były prowadzone pod potrzeby studentów i można było korzystać z wiedzy oraz pomocy wykładowcy.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> fantastycznie prowadzone zajęcia, dużo materiału, prowadzący zaangażowany, pomocny i cierpliwy. duży plus</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan mgr bardzo zaangażował się w lekcje oraz dał inaczej mi spojrzeć na logike. Bardzo ubolewam nad tym że skończyliśmy logike.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra to wspaniały człowiek, bardzo wyrozumiały i pozytywnie nastawiony do wszystkich osób, które nauczał. Nawet jeśli niekiedy zdarzyło się, że jakaś część materiału była niezrozumiała, to Pan Jędrzej spokojnie objaśniał wszelkie wątpliwości. Jego podejście do nauczania pozwala na zachowanie indywidualnego tempa uczenia się każdej osoby, bez strat w materiale.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepszy prowadzący jakiego miałam okazję poznać. Pan Wydra ma wspaniałe podejście do studentów, bardzo dokładnie i przejrzyście omawia materiał, dba o to aby studenci zrozumieli zagadnienia i potrafili poradzić sobie z nimi na zaliczeniu. Jest to osoba niezwykle charyzmatyczna i otwarta, zapewnia studentom bezstresowe i bardzo efektywne przyswajanie wiedzy.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra był wykładowcą na miarę tego uniwersytetu. Świetne ćwiczenia, na których każdy czuł się dobrze, bez stresu a z cudownym podejściem do każdego. To był bardzo ciekawy czas i kiedy nadszedł czas ostatnich ćwiczeń było mi przykro, że to już koniec, a warto wspomnieć, że logika nie należy do moich ulubionych przedmiotów. Pan Jędrzej to cudowny człowiek i jeszcze lepszy wykładowca</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Nigdy nie sądziłam, że spotkam na uczelni tak wybitnego prowadzącego jak Pan Jędrzej Wydra. Bardzo otwarty, zabawny i doświadczony człowiek, jest wzorem do naśladowania i jego osoba zabarwiła niezrozumiałą dla mnie logike. Podejście do tematów było bardzo kreatywne i twórcze, pan Wydra tłumaczył treści do skutku i dawał mnówstwo szans na zrozumienie jego przedmiotu. Specjalnie dla nas zorganizował nawet spotkanie dodatkowe przed zaliczeniem. Jego zaangażowanie mnie urzeka, tak jak to że był w stanie zapamiętać imiona niektórych osób, żeby nawiązać kontakt ze studentami. Zostanie najlepiej zapamiętanym przeze mnie prowadzącym i najbardziej zaangażowanym dydaktykiem.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Ćwiczenia z takim prowadzącym spowodowały u mnie zainteresowanie przedmiotem a chodzenie na nie to była czysta przyjemność. Umiejętność przekazywania wiedzy w ciekawy sposób i kompetencje mgr Wydry są nie do przebicia.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mimo trudnego przedmiotu, prowadzący w sposób znakomity, a przede wszystkim zrozumiały przeprowadził cykl zajęciowy z logiki prawniczej, organizując również dodatkowe zajęcia na prośbę studentów.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący prowadził zajęcia w sposób zrozumiały. Przedstawił kryteria, trzymając się ich przez całą ciągłość zajęć. Motywował do działania, pomimo późnych godzin popołudniowych. Zachęcał do zrozumienia materiału, mimo iż ów jest dosyć skomplikowany. Nadto wspomnieć należy o niesamowitej cierpliwości względem studenta! Przemiłe przemówienie inauguracyjne, jak i pożegnalne. Zapał i optymizm, którego można zazdrościć oraz winien nauczyć się go każdy obecny na zajęciach! :))</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Jedne z najprzyjemniejszych zajęć, Pan mgr Wydra wykazywał się ogromną wyrozumiałością, organizował dodatkowe zajęcia; ma znakomite podejście do studentów</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia z prowadzącym były bardzo ciekawym doświadczeniem. Pomimo faktu iż logika nie jest łatwym przedmiotem. Wiedza na ćwiczeniach była przekazywana w bardzo przystępny sposób. Mogę szczerze powiedzieć iż wykładowca powinie otrzymać ,,6+” (za stawianie ,,plusów” na zajęciach również) Podsumowując bardzo dobrze uczęszczało mi się na te zajęcia.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra zaskoczył mnie pozytywnie, zwłaszcza jego otwartość, komunikatywność i nastawienie na studenta. Zawsze chętny do pomocy i rozmowy.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Wydra prowadził swoje zajęcia w sposób, który zachęcał do myślenia. Motywował i bardzo zrozumiale tłumaczył. Zajęcia te zapamiętam na długo, bo były najlepszymi jakich do tej pory doświadczyłam. Przyjemna atmosfera sprawiała, że nie chciało się tych ćwiczeń opuszczać.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Złoty człowiek. Na zajęcia z logiki chodziło się z przyjemnością :)</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepszy wykładowca na uczelni!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia odbywały się w bardzo komfortowej i wspierającej atmosferze, co ułatwiało przyswajanie nawet tych najtrudniejszych zagadnień. Materiał był przedstawiany w sposób zrozumiały, dzięki czemu każdy mógł wynieść z zajęć cenną wiedzę. Prowadzący wykazał się olbrzymim zaangażowaniem. Z zajęć nie tylko można było wynieść wiedzę, ale także cenne wskazówki i porady. Wykładowca dawał bardzo dużo od siebie, okazał również nam dużo szacunku i wsparcia w tak trudnym przedmiocie, którego nie każdy był w stanie od tak zrozumieć. Bardzo miło wspominam zajęcia z mgr Jędrzejem Wydrą.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobry wykładowca, który rozumie studentów i pomaga</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo przyjemna atmosfera na zajęciach, sprzyjająca nauce.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Cudowny wykładowca, zawsze znalazł czas na konsultacje nawet gdy nie miał dyżuru.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez Pana Wydrę były, bez wątpienia, jednymi z najlepszych, w jakich miałam okazję uczestniczyć. Wykładowca zawsze był doskonale przygotowany do zajęć, a mimo dużej liczby osób w grupie każdemu poświęcał tyle czasu, ile było potrzebne, aby w pełni zrozumieć materiał. Zawsze odnosił się do nas z ogromnym szacunkiem. Lekcje były nie tylko interesujące, ale również prowadzone w sposób, który łączył rzetelną realizację programu z czasem na śmiech, liczne pytania i niezliczoną ilość dyskusji. Chociaż nie zawsze miałam ochotę jechać na uczelnię, zajęcia z Panem Wydrą uważałam za obowiązkowe – nie dlatego, że dotyczyły logiki, lecz dlatego, że były one wyjątkowe. To była idealna kombinacja nauki i radości, co jest niezwykle rzadkie w przypadku zajęć akademickich. Dzięki Panu Wydrze udało się stworzyć przestrzeń, w której zdobywanie wiedzy było prawdziwą przyjemnością, a taka atmosfera to coś, co niewielu wykładowców potrafi osiągnąć.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący w bardzo przyjazny sposób przekazywał wiedzę.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Dzięki ogromnemu zaangażowaniu wykładowcy, przychodziłam na zajęcia z przyjemnością, a nie z samego obowiązku.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetny prowadzący, gdyby każdy taki był świat byłby idealny</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Wykładowca o wspaniałej osobowości, dla którego ważny jest każdy student. Na zajęcia z chęcią się chodziło!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Ogromna wiedza, bardzo ciekawe i fajne podejście do studenta. Na moje pytania odpowiedź była od ręki na Teams.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra jest najlepszym prowadzącym, z którym miałam przyjemność mieć zajęcia.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobre podejście i doskonały kontakt ze studentem.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetne podejście do studentów, kreatywnie prowadzone zajęcia i pozytywny vibe.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra to zdecydowanie jeden z najlepszych wykładowców, jakich spotkałem na UAM. Potrafi dobrze podejść do studentów oraz ciekawie prowadzić zajęcia, do tego nigdy nie było sytuacji, żeby jego zajęcia nie nauczyły mnie czegoś, co poszerzyło moje horyzonty. Inspiruje studentów, zachęca do nauki i daje wiarę, że dla otwartości i samodzielnego myślenia jest na tej uczelni miejsce.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia były bardzo przyjemne i zrozumiałe, wiele się nauczyłam.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetnie przygotowane zajęcia. Wykładowca bardzo przyjazny studentom, stymulujący do aktywności i wynagradzający wysiłki. Przystępnie tłumaczył trudne zagadnienia.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Wydra jest świetny, niech się nie zmienia, jego poczucie humoru to tylko jedna z jego wielu zalet.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Super zajęcia !!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetny prowadzący, z ogromnym szacunkiem dla studentów. Bardzo zrozumiały styl nauczania i chęć do organizowania dodatkowych doszkalających wykładów i dyskusji. Zapewnienie dodatkowych materiałów do nauki zbioru zadań i jasne i przystępne warunki zaliczenia.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra prowadził zajęcia w sposób interesujący, często poszerzając zakres wykładów o interesujące zagadnienia poszerzające naszą wiedzę.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> To były jedne z najlepszych zajęć, jakie miałem na uczelni. Wysoka kultura oraz świetne podejście do studentów wyróżniały te zajęcia. Wykładowca był jednym z najlepszych, z jakimi miałem do czynienia – na jego zajęcia chodziłem z uśmiechem i zawsze czekałem na kolejne, wiedząc, że wiele się nauczę. Dzięki wyjątkowej atmosferze czas na zajęciach mijał zbyt szybko, a szkoda, bo chciałoby się, żeby trwały dłużej. Metody przekazywania wiedzy uważam za najlepsze, jakie dotychczas spotkałem, a zaangażowanie wykładowcy było na poziomie, którego wcześniej nie doświadczyłem.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Naprawdę super prowadzący, oby takich więcej! Podejście do studentów i w ogóle do wszystkiego podczas zajęć itp.? Idealne!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Ćwiczenia prowadzone były w ciekawy i oryginalny sposób. Pan Jędrzej na zajęciach był bardzo sympatyczny oraz otwarty do studentów.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepiej poprowadzone zajęcia w tym semestrze - zarówno pod względem merytorycznym, jak i pod względem prowadzącego.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> troszkę mieszane uczucia, bardzo dobre podejście do studentów, dostępność dodatkowych zajęć, wsparcia studentów, plusów, aktywnosc z obu stron, dobra atmosfera, jednak warunki zaliczenia opisane w moim odczucie nietrafnie, a realizowany materiał zbyt odbiegał w kierunku matematyczne niż prawnicze, w porównaniu do materiału z wykładu uważam że nietrafnie jak na studia prawnicze, myślę że powinno być to wzięte pod uwagę, poziom merytoryczny zajęć w moim odczuciu mógł sprawiać problemy</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez pana Wydrę były iście epickie. Każde z zagadnień było omówione dokładnie. Był czas na pytania studentów. Każda niejasność była natychmiast wyjaśniania. Polecam prowadzącego.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Nie mam nic do zarzucenia prowadzącemu, nabyłem u niego umiejętności, które będą potrzebne do napisania kolokwium z wykładu. Poza tym prowadzący, był otwarty na dyskusję, na nowe pomysły i całkiem nowy tok myślenia. Uważam, że to były zajęcia na poziomie akademickim.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr. Wydra przeprowadził ćwiczenia w sposób wychodzący poza moje oczekiwania. Wielokrotnie pomógł również mi za pośrednictwem maili, gdzie w sposób bardzo przystępny wytłumaczył materię.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Niesamowity wykładowca i człowiek. Ma naprawdę empatyczne podejście do studentów (przy czym nie jest w stosunku do nich pobłażliwy), można było liczyć na jego pomoc w przypadku problemów w rozwiązaniu zadania z logiki i nie tylko, nawet po ukończeniu zajęć. Ta przystępność jest tym bardziej godna podziwu, kiedy się weźmie pod uwagę ilość obowiązku (związanych z dalszym rozwojem naukowym w dziedzinie psychologii, kryminalistyki i prawa), które ma ten wykładowca. Przy czym jego wykłady były prowadzone w sposób charyzmatyczny i humorystyczny (były naprawdę epickie), często też padały pytania, które miały za zadanie dać nam nowe spojrzenie na omawiane zagadnienie. Te pytania dobrze pokazywały cel tych ćwiczeń, którym było nabycie praktycznych umiejętności korzystania z wiedzy o logice prawniczej oraz faktyczne jej zrozumienie, a nie wkucie formułek na pamięć. Widać było, że wykładowca wkłada całe serce w nauczanie i żałuję, że ten przedmiot nie trwa przez okres 5 lat studiów magisterskich.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Każde zajęcia były przeprowadzone w sposób przejrzysty oraz interesujący. Z prowadzącym w każdej chwili można było się skontaktować i poprosić o dodatkowe wyjaśnienie. Prezentowane przykłady okazały się bardzo praktyczne w kolejnych etapach nauki.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetnie prowadzone zajęcia, zaciekawiały logiką i prawem. Jedynie minus za zbyt daleko idące dygresje od tematu zajęć i nieumiejętność ukrócenia zbędnych dyskusji studentów.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra w mojej ocenie jest jednym z najbardziej charyzmatycznych i interesujących wykładowców jakich przyszło mi poznać do tej pory. Jeżeli Pan to czyta, gorąco pozdrawiam!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia, które się odbywały pomimo trudności ze zrozumieniem zawsze przynosiły pozytywne efekty. Przez aktywną formę prowadzenia ich zadawanie pytań nie sprawiło trudności. Efektywnie podejście do studentów, w sali i indywidualnie. O każdym problemie zawsze można było swobodnie porozmawiać a gdy materiał był zbyt trudny była możliwość spotkani indywidualnego w ramach zajęć.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zjawić były bardzo przyjemne, prowadzone w dobrej atmosferze. Omawiane zadania często zachęcały do dyskusji z prowadzącym, który był otwarty na zdanie studentów.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobry, otwarty i uczciwy stosunek do studentów. Komfortowa atmosfera zajęć duży nacisk kładziony na aktywność własną i formę rozmowy między prowadzącym a studentem. Bardzo wysoki merytorycznie poziom zajęć.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący potrafił sprawić, że zainteresowaliśmy się logiką. Doceniał aktywność, która powodowała większe zaangażowanie studentów w przedmiot. Niekonwencjonalny sposób prowadzenia i kreatywność prowadzącego zdecydowanie potwierdzają jego umiejętności jako bardzo dobrego znawcę swojej dziedziny.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Magister Wydra to jeden z lepszych prowadzących ćwiczenia, bardzo się cieszę, że na niego mogłam trafić.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo ciekawe ćwiczenia w bardzo miłej atmosferze :)</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo ciekawe ćwiczenia w bardzo miłej atmosferze :)</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobry kontakt z Panem Magistrem. Pan Wydra bardzo zachęcał do aktywności. Cieszę się, że podczas zajęć nie rozwiązywaliśmy typowych zadań, a te skłaniające do większego myślenia. Pan Magister to osoba bardzo sympatyczna, z świetnym „młodzieżowym” podejściem do studenta.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo interesujące zajęcia, motywujące do myślenia. A przy tym bardzo dobry prowadzący, klarownie wyjaśniał wszystkie zagadnienia i pomagał zawsze w przypadku wątpliwości.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Absolutnie fenomenalny wykładowca. Zdecydowanie podnosi średnią ocenę wykładowców na tym wydziale. Świetnie prowadzone ćwiczenia, genialna komunikacja i zaangażowanie.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący zajęcia imponował i inspirował swoim zaangażowaniem. Jeden z najlepszych pedagogów, z jakim miałem do czynienia. Jestem mu głęboko wdzięczny, że przedmiot, który wydawał się nieco nudny i straszny uczynił fascynującym</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Z przyjemnością uczestniczyłam w tych ćwiczeniach, wiele z nich wyniosłam. Zajęcia były prowadzone w naprawdę ciekawy i zrozumiały sposób.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Ulubione zajęcia</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone w ciekawy sposób, czułem się na nich komfortowo.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Fenomenalny prowadzący, zajęcia ciekawie prowadzone, aż chciało się przychodzić, słuchać i brać aktywny udział. Prowadzący potrafił przedstawić rzeczy trudne w sposób przystępny i zrozumiały.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetny prowadzący!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zaliczenie było oceniane w sposób polegający wiele do życzenia, kolokwium na 343 punkty, przy czym za pytania same w sobie można było otrzymać jedynie 1 lub 0,5 punkta, które następnie były mnożone. Ciekawy system benefitów za aktywność na zajęciach, nikt nie czuł się pominięty.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> jako studentka jestem zadowolona z sposobu przekazywania wiedzy z owego przedmiotu,ponieważ jest on dość skomplikowny i niejednoznaczyny dla każdego. Pan Prowadzący ćwiczenia bardzo zachęcał studentów do aktywności na zajęciach którą zresztą zawsze nagradzał plusami,nawet w sytuacji gdy tok rozumowania studenta nie był dobry. Również chciałabym podkreślić,że komunikacja z Panem prowadzącym zawsze przebiegła bezstresowo i swobodnie.</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Na ćwiczenia uczęszczałam z przyjemnością, prowadzący w sposób ciekawy wykładał materiał,</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo utalentowany nauczyciel!</p>
-      <p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia były prowadzone w przyjazny i przystępny dla studenta sposób, stanowiły świetne uzupełnienie wykładu oraz stwarzały możliwość przećwiczenia zagadnień przedmiotu, studenci byli zachęcani do aktywności i regularnej pracy poprzez możliwość uzyskania dodatkowych punktów do kolokwium.</p>
-
+<!-- Przewijalna lista wszystkich opinii -->
+<div class="opinions-list">
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetne zajęcia, praktyczna wiedza.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Jedne z ciekawszych zajęć, na które aż żal było nie przychodzić. Mgr Wydra swoją charyzmą powodował, że te 1,5 godziny były spędzone nie tylko w pracowity, ale również interesujący sposób.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Warsztaty z Panem Magistrem były jednymi z najciekawszych w toku studiów.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez Pans Jędrzeja Wydrę były niezwykle interesujące. Już od pierwszych chwil można było dostrzec, że wkłada w swoją pracę ogrom energii i zaangażowania. Jego pełna pasji postawa sprawiała, że zajęcia były nie tylko merytoryczne, ale również inspirujące i dynamiczne.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra to najlepszy prowadzący do tej pory!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Uważam, że to były najlepsze zajęcia w całym semestrze. Mnóstwo wiedzy, a na dodatek przekazana w bardzo interesujący sposób. Zajęcia prowadzone z otwartością, bez przymusu i z uśmiechem.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Uwazam, ze zajęcia były prowadzone w sposób przyjazny dla studentów, bez stresu oraz w miłej atmosferze. Chętnie uczęszczałam na zajęcia ze względu na przekazana wiedzę, która była rzetelna. Sam wykładowca bardzo energiczny a zarazem pomysłowy. Każde zajęcia były prowadzone pod potrzeby studentów i można było korzystać z wiedzy oraz pomocy wykładowcy.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> fantastycznie prowadzone zajęcia, dużo materiału, prowadzący zaangażowany, pomocny i cierpliwy. duży plus</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan mgr bardzo zaangażował się w lekcje oraz dał inaczej mi spojrzeć na logike. Bardzo ubolewam nad tym że skończyliśmy logike.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra to wspaniały człowiek, bardzo wyrozumiały i pozytywnie nastawiony do wszystkich osób, które nauczał. Nawet jeśli niekiedy zdarzyło się, że jakaś część materiału była niezrozumiała, to Pan Jędrzej spokojnie objaśniał wszelkie wątpliwości. Jego podejście do nauczania pozwala na zachowanie indywidualnego tempa uczenia się każdej osoby, bez strat w materiale.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepszy prowadzący jakiego miałam okazję poznać. Pan Wydra ma wspaniałe podejście do studentów, bardzo dokładnie i przejrzyście omawia materiał, dba o to aby studenci zrozumieli zagadnienia i potrafili poradzić sobie z nimi na zaliczeniu. Jest to osoba niezwykle charyzmatyczna i otwarta, zapewnia studentom bezstresowe i bardzo efektywne przyswajanie wiedzy.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra był wykładowcą na miarę tego uniwersytetu. Świetne ćwiczenia, na których każdy czuł się dobrze, bez stresu a z cudownym podejściem do każdego. To był bardzo ciekawy czas i kiedy nadszedł czas ostatnich ćwiczeń było mi przykro, że to już koniec, a warto wspomnieć, że logika nie należy do moich ulubionych przedmiotów. Pan Jędrzej to cudowny człowiek i jeszcze lepszy wykładowca</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Nigdy nie sądziłam, że spotkam na uczelni tak wybitnego prowadzącego jak Pan Jędrzej Wydra. Bardzo otwarty, zabawny i doświadczony człowiek, jest wzorem do naśladowania i jego osoba zabarwiła niezrozumiałą dla mnie logike. Podejście do tematów było bardzo kreatywne i twórcze, pan Wydra tłumaczył treści do skutku i dawał mnówstwo szans na zrozumienie jego przedmiotu. Specjalnie dla nas zorganizował nawet spotkanie dodatkowe przed zaliczeniem. Jego zaangażowanie mnie urzeka, tak jak to że był w stanie zapamiętać imiona niektórych osób, żeby nawiązać kontakt ze studentami. Zostanie najlepiej zapamiętanym przeze mnie prowadzącym i najbardziej zaangażowanym dydaktykiem.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Ćwiczenia z takim prowadzącym spowodowały u mnie zainteresowanie przedmiotem a chodzenie na nie to była czysta przyjemność. Umiejętność przekazywania wiedzy w ciekawy sposób i kompetencje mgr Wydry są nie do przebicia.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mimo trudnego przedmiotu, prowadzący w sposób znakomity, a przede wszystkim zrozumiały przeprowadził cykl zajęciowy z logiki prawniczej, organizując również dodatkowe zajęcia na prośbę studentów.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący prowadził zajęcia w sposób zrozumiały. Przedstawił kryteria, trzymając się ich przez całą ciągłość zajęć. Motywował do działania, pomimo późnych godzin popołudniowych. Zachęcał do zrozumienia materiału, mimo iż ów jest dosyć skomplikowany. Nadto wspomnieć należy o niesamowitej cierpliwości względem studenta! Przemiłe przemówienie inauguracyjne, jak i pożegnalne. Zapał i optymizm, którego można zazdrościć oraz winien nauczyć się go każdy obecny na zajęciach! :))</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Jedne z najprzyjemniejszych zajęć, Pan mgr Wydra wykazywał się ogromną wyrozumiałością, organizował dodatkowe zajęcia; ma znakomite podejście do studentów</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia z prowadzącym były bardzo ciekawym doświadczeniem. Pomimo faktu iż logika nie jest łatwym przedmiotem. Wiedza na ćwiczeniach była przekazywana w bardzo przystępny sposób. Mogę szczerze powiedzieć iż wykładowca powinie otrzymać ,,6+” (za stawianie ,,plusów” na zajęciach również) Podsumowując bardzo dobrze uczęszczało mi się na te zajęcia.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra zaskoczył mnie pozytywnie, zwłaszcza jego otwartość, komunikatywność i nastawienie na studenta. Zawsze chętny do pomocy i rozmowy.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Wydra prowadził swoje zajęcia w sposób, który zachęcał do myślenia. Motywował i bardzo zrozumiale tłumaczył. Zajęcia te zapamiętam na długo, bo były najlepszymi jakich do tej pory doświadczyłam. Przyjemna atmosfera sprawiała, że nie chciało się tych ćwiczeń opuszczać.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Złoty człowiek. Na zajęcia z logiki chodziło się z przyjemnością :)</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepszy wykładowca na uczelni!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia odbywały się w bardzo komfortowej i wspierającej atmosferze, co ułatwiało przyswajanie nawet tych najtrudniejszych zagadnień. Materiał był przedstawiany w sposób zrozumiały, dzięki czemu każdy mógł wynieść z zajęć cenną wiedzę. Prowadzący wykazał się olbrzymim zaangażowaniem. Z zajęć nie tylko można było wynieść wiedzę, ale także cenne wskazówki i porady. Wykładowca dawał bardzo dużo od siebie, okazał również nam dużo szacunku i wsparcia w tak trudnym przedmiocie, którego nie każdy był w stanie od tak zrozumieć. Bardzo miło wspominam zajęcia z mgr Jędrzejem Wydrą.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobry wykładowca, który rozumie studentów i pomaga</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo przyjemna atmosfera na zajęciach, sprzyjająca nauce.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Cudowny wykładowca, zawsze znalazł czas na konsultacje nawet gdy nie miał dyżuru.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez Pana Wydrę były, bez wątpienia, jednymi z najlepszych, w jakich miałam okazję uczestniczyć. Wykładowca zawsze był doskonale przygotowany do zajęć, a mimo dużej liczby osób w grupie każdemu poświęcał tyle czasu, ile było potrzebne, aby w pełni zrozumieć materiał. Zawsze odnosił się do nas z ogromnym szacunkiem. Lekcje były nie tylko interesujące, ale również prowadzone w sposób, który łączył rzetelną realizację programu z czasem na śmiech, liczne pytania i niezliczoną ilość dyskusji. Chociaż nie zawsze miałam ochotę jechać na uczelnię, zajęcia z Panem Wydrą uważałam za obowiązkowe – nie dlatego, że dotyczyły logiki, lecz dlatego, że były one wyjątkowe. To była idealna kombinacja nauki i radości, co jest niezwykle rzadkie w przypadku zajęć akademickich. Dzięki Panu Wydrze udało się stworzyć przestrzeń, w której zdobywanie wiedzy było prawdziwą przyjemnością, a taka atmosfera to coś, co niewielu wykładowców potrafi osiągnąć.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący w bardzo przyjazny sposób przekazywał wiedzę.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Dzięki ogromnemu zaangażowaniu wykładowcy, przychodziłam na zajęcia z przyjemnością, a nie z samego obowiązku.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetny prowadzący, gdyby każdy taki był świat byłby idealny</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Wykładowca o wspaniałej osobowości, dla którego ważny jest każdy student. Na zajęcia z chęcią się chodziło!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Ogromna wiedza, bardzo ciekawe i fajne podejście do studenta. Na moje pytania odpowiedź była od ręki na Teams.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra jest najlepszym prowadzącym, z którym miałam przyjemność mieć zajęcia.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobre podejście i doskonały kontakt ze studentem.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetne podejście do studentów, kreatywnie prowadzone zajęcia i pozytywny vibe.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra to zdecydowanie jeden z najlepszych wykładowców, jakich spotkałem na UAM. Potrafi dobrze podejść do studentów oraz ciekawie prowadzić zajęcia, do tego nigdy nie było sytuacji, żeby jego zajęcia nie nauczyły mnie czegoś, co poszerzyło moje horyzonty. Inspiruje studentów, zachęca do nauki i daje wiarę, że dla otwartości i samodzielnego myślenia jest na tej uczelni miejsce.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia były bardzo przyjemne i zrozumiałe, wiele się nauczyłam.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetnie przygotowane zajęcia. Wykładowca bardzo przyjazny studentom, stymulujący do aktywności i wynagradzający wysiłki. Przystępnie tłumaczył trudne zagadnienia.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Wydra jest świetny, niech się nie zmienia, jego poczucie humoru to tylko jedna z jego wielu zalet.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Super zajęcia !!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetny prowadzący, z ogromnym szacunkiem dla studentów. Bardzo zrozumiały styl nauczania i chęć do organizowania dodatkowych doszkalających wykładów i dyskusji. Zapewnienie dodatkowych materiałów do nauki zbioru zadań i jasne i przystępne warunki zaliczenia.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr Jędrzej Wydra prowadził zajęcia w sposób interesujący, często poszerzając zakres wykładów o interesujące zagadnienia poszerzające naszą wiedzę.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> To były jedne z najlepszych zajęć, jakie miałem na uczelni. Wysoka kultura oraz świetne podejście do studentów wyróżniały te zajęcia. Wykładowca był jednym z najlepszych, z jakimi miałem do czynienia – na jego zajęcia chodziłem z uśmiechem i zawsze czekałem na kolejne, wiedząc, że wiele się nauczę. Dzięki wyjątkowej atmosferze czas na zajęciach mijał zbyt szybko, a szkoda, bo chciałoby się, żeby trwały dłużej. Metody przekazywania wiedzy uważam za najlepsze, jakie dotychczas spotkałem, a zaangażowanie wykładowcy było na poziomie, którego wcześniej nie doświadczyłem.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Naprawdę super prowadzący, oby takich więcej! Podejście do studentów i w ogóle do wszystkiego podczas zajęć itp.? Idealne!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Ćwiczenia prowadzone były w ciekawy i oryginalny sposób. Pan Jędrzej na zajęciach był bardzo sympatyczny oraz otwarty do studentów.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Najlepiej poprowadzone zajęcia w tym semestrze - zarówno pod względem merytorycznym, jak i pod względem prowadzącego.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> troszkę mieszane uczucia, bardzo dobre podejście do studentów, dostępność dodatkowych zajęć, wsparcia studentów, plusów, aktywnosc z obu stron, dobra atmosfera, jednak warunki zaliczenia opisane w moim odczucie nietrafnie, a realizowany materiał zbyt odbiegał w kierunku matematyczne niż prawnicze, w porównaniu do materiału z wykładu uważam że nietrafnie jak na studia prawnicze, myślę że powinno być to wzięte pod uwagę, poziom merytoryczny zajęć w moim odczuciu mógł sprawiać problemy</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone przez pana Wydrę były iście epickie. Każde z zagadnień było omówione dokładnie. Był czas na pytania studentów. Każda niejasność była natychmiast wyjaśniania. Polecam prowadzącego.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Nie mam nic do zarzucenia prowadzącemu, nabyłem u niego umiejętności, które będą potrzebne do napisania kolokwium z wykładu. Poza tym prowadzący, był otwarty na dyskusję, na nowe pomysły i całkiem nowy tok myślenia. Uważam, że to były zajęcia na poziomie akademickim.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Mgr. Wydra przeprowadził ćwiczenia w sposób wychodzący poza moje oczekiwania. Wielokrotnie pomógł również mi za pośrednictwem maili, gdzie w sposób bardzo przystępny wytłumaczył materię.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Niesamowity wykładowca i człowiek. Ma naprawdę empatyczne podejście do studentów (przy czym nie jest w stosunku do nich pobłażliwy), można było liczyć na jego pomoc w przypadku problemów w rozwiązaniu zadania z logiki i nie tylko, nawet po ukończeniu zajęć. Ta przystępność jest tym bardziej godna podziwu, kiedy się weźmie pod uwagę ilość obowiązku (związanych z dalszym rozwojem naukowym w dziedzinie psychologii, kryminalistyki i prawa), które ma ten wykładowca. Przy czym jego wykłady były prowadzone w sposób charyzmatyczny i humorystyczny (były naprawdę epickie), często też padały pytania, które miały za zadanie dać nam nowe spojrzenie na omawiane zagadnienie. Te pytania dobrze pokazywały cel tych ćwiczeń, którym było nabycie praktycznych umiejętności korzystania z wiedzy o logice prawniczej oraz faktyczne jej zrozumienie, a nie wkucie formułek na pamięć. Widać było, że wykładowca wkłada całe serce w nauczanie i żałuję, że ten przedmiot nie trwa przez okres 5 lat studiów magisterskich.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Każde zajęcia były przeprowadzone w sposób przejrzysty oraz interesujący. Z prowadzącym w każdej chwili można było się skontaktować i poprosić o dodatkowe wyjaśnienie. Prezentowane przykłady okazały się bardzo praktyczne w kolejnych etapach nauki.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetnie prowadzone zajęcia, zaciekawiały logiką i prawem. Jedynie minus za zbyt daleko idące dygresje od tematu zajęć i nieumiejętność ukrócenia zbędnych dyskusji studentów.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Pan Jędrzej Wydra w mojej ocenie jest jednym z najbardziej charyzmatycznych i interesujących wykładowców jakich przyszło mi poznać do tej pory. Jeżeli Pan to czyta, gorąco pozdrawiam!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia, które się odbywały pomimo trudności ze zrozumieniem zawsze przynosiły pozytywne efekty. Przez aktywną formę prowadzenia ich zadawanie pytań nie sprawiło trudności. Efektywnie podejście do studentów, w sali i indywidualnie. O każdym problemie zawsze można było swobodnie porozmawiać a gdy materiał był zbyt trudny była możliwość spotkani indywidualnego w ramach zajęć.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zjawić były bardzo przyjemne, prowadzone w dobrej atmosferze. Omawiane zadania często zachęcały do dyskusji z prowadzącym, który był otwarty na zdanie studentów.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobry, otwarty i uczciwy stosunek do studentów. Komfortowa atmosfera zajęć duży nacisk kładziony na aktywność własną i formę rozmowy między prowadzącym a studentem. Bardzo wysoki merytorycznie poziom zajęć.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący potrafił sprawić, że zainteresowaliśmy się logiką. Doceniał aktywność, która powodowała większe zaangażowanie studentów w przedmiot. Niekonwencjonalny sposób prowadzenia i kreatywność prowadzącego zdecydowanie potwierdzają jego umiejętności jako bardzo dobrego znawcę swojej dziedziny.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Magister Wydra to jeden z lepszych prowadzących ćwiczenia, bardzo się cieszę, że na niego mogłam trafić.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo ciekawe ćwiczenia w bardzo miłej atmosferze :)</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo ciekawe ćwiczenia w bardzo miłej atmosferze :)</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo dobry kontakt z Panem Magistrem. Pan Wydra bardzo zachęcał do aktywności. Cieszę się, że podczas zajęć nie rozwiązywaliśmy typowych zadań, a te skłaniające do większego myślenia. Pan Magister to osoba bardzo sympatyczna, z świetnym „młodzieżowym” podejściem do studenta.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo interesujące zajęcia, motywujące do myślenia. A przy tym bardzo dobry prowadzący, klarownie wyjaśniał wszystkie zagadnienia i pomagał zawsze w przypadku wątpliwości.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Absolutnie fenomenalny wykładowca. Zdecydowanie podnosi średnią ocenę wykładowców na tym wydziale. Świetnie prowadzone ćwiczenia, genialna komunikacja i zaangażowanie.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Prowadzący zajęcia imponował i inspirował swoim zaangażowaniem. Jeden z najlepszych pedagogów, z jakim miałem do czynienia. Jestem mu głęboko wdzięczny, że przedmiot, który wydawał się nieco nudny i straszny uczynił fascynującym</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Z przyjemnością uczestniczyłam w tych ćwiczeniach, wiele z nich wyniosłam. Zajęcia były prowadzone w naprawdę ciekawy i zrozumiały sposób.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Ulubione zajęcia</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia prowadzone w ciekawy sposób, czułem się na nich komfortowo.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Fenomenalny prowadzący, zajęcia ciekawie prowadzone, aż chciało się przychodzić, słuchać i brać aktywny udział. Prowadzący potrafił przedstawić rzeczy trudne w sposób przystępny i zrozumiały.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Świetny prowadzący!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zaliczenie było oceniane w sposób polegający wiele do życzenia, kolokwium na 343 punkty, przy czym za pytania same w sobie można było otrzymać jedynie 1 lub 0,5 punkta, które następnie były mnożone. Ciekawy system benefitów za aktywność na zajęciach, nikt nie czuł się pominięty.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> jako studentka jestem zadowolona z sposobu przekazywania wiedzy z owego przedmiotu,ponieważ jest on dość skomplikowny i niejednoznaczyny dla każdego. Pan Prowadzący ćwiczenia bardzo zachęcał studentów do aktywności na zajęciach którą zresztą zawsze nagradzał plusami,nawet w sytuacji gdy tok rozumowania studenta nie był dobry. Również chciałabym podkreślić,że komunikacja z Panem prowadzącym zawsze przebiegła bezstresowo i swobodnie.</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Na ćwiczenia uczęszczałam z przyjemnością, prowadzący w sposób ciekawy wykładał materiał,</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Bardzo utalentowany nauczyciel!</p>
+<p><i class="fa-solid fa-quote-left w3-text-green"></i> Zajęcia były prowadzone w przyjazny i przystępny dla studenta sposób, stanowiły świetne uzupełnienie wykładu oraz stwarzały możliwość przećwiczenia zagadnień przedmiotu, studenci byli zachęcani do aktywności i regularnej pracy poprzez możliwość uzyskania dodatkowych punktów do kolokwium.</p>
 <p style="text-align: center; margin-top: 20px;">
-  <a href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/tree/main/Opinions_of_students" target="_blank" class="w3-button w3-green w3-round w3-hover-dark-grey" style="box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-    <i class="fa-brands fa-github" style="margin-right: 8px;"></i>
-    Oryginalne komentarze studentów (zrzuty ekranu)
-  </a>
+<a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://github.com/Jedrzej-Wydra/Worth_Mentioning/tree/main/Opinions_of_students" style="margin: 4px;" target="_blank"><i class="fa-brands fa-github" style="margin-right:6px;"></i> Materiały</a>
 </p>
-
-
-      <!-- Dodajesz dalej aż do 100 opinii -->
-    </div>
-
-    <!-- Można dodać krótki tekst końcowy -->
-    <p style="margin-top:16px;">
-      <em>Bardzo dziękuję wszystkim studentom za podzielenie się swoimi wrażeniami</em>
-    </p>
-
-  </div>
+<!-- Dodajesz dalej aż do 100 opinii -->
+</div>
+<!-- Można dodać krótki tekst końcowy -->
+<p style="margin-top:16px;">
+<em>Bardzo dziękuję wszystkim studentom za podzielenie się swoimi wrażeniami</em>
+</p>
+</div>
 </div>
 <!-- === END: MODAL "All Students' Opinions" === -->
-
 <script>
 function toggleSidebar() {
   const sidebar = document.getElementById("mobileSidebar");
@@ -474,6 +398,5 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
 </body>
 </html>
