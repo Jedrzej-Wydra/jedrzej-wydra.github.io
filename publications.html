@@ -46,10 +46,35 @@ function toggleTheme() {
 </head>
 <body style="background-color: #4a4a4a">
 
+<!-- Pasek uproszczony dla małych ekranów -->
+<div class="w3-bar w3-green w3-hide-medium w3-hide-large">
+  <!-- Hamburger po lewej -->
+  <button class="w3-bar-item w3-button" onclick="toggleSidebar()">
+    <i class="fa fa-bars"></i>
+  </button>
+  <!-- Po prawej przycisk zmiany motywu -->
+  <button class="w3-bar-item w3-button w3-right" onclick="toggleTheme()">
+    <i class="fa fa-moon"></i>
+  </button>
+  <!-- Po prawej link do PL -->
+  <a href="PL/publikacje.html" class="w3-bar-item w3-button w3-right">PL</a>
+</div>
+
+<!-- Sidebar menu dla małych ekranów -->
+<nav class="w3-sidebar w3-bar-block w3-green w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mobileSidebar">
+  <a href="index.html" class="w3-bar-item w3-button">News</a>
+  <a href="publications.html" class="w3-bar-item w3-button active">Publications</a>
+  <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
+  <a href="didactics.html" class="w3-bar-item w3-button">Didactics</a>
+  <a href="https://github.com/Jedrzej-Wydra" target="_blank" class="w3-bar-item w3-button">GitHub Repo</a>
+  <a href="https://sicss-amulaw.github.io" target="_blank" class="w3-bar-item w3-button">SICSS-AMU/Law</a>
+</nav>
+
+
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<nav class="w3-bar w3-green w3-card-4 w3-margin-bottom">
+<nav class="w3-bar w3-green w3-card-4 w3-margin-bottom w3-hide-small">
   <a href="javascript:void(0);" onclick="toggleTheme()" class="w3-bar-item w3-button w3-right">
     <i class="fa fa-moon"></i>
   </a>
@@ -514,6 +539,24 @@ Certificate: <a href="https://github.com/Jedrzej-Wydra/conferences/blob/main/Por
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   <p>Hosted by GitHub Pages</p>
 </footer>
+
+<script>
+function toggleSidebar() {
+  const sidebar = document.getElementById("mobileSidebar");
+  sidebar.style.display = (sidebar.style.display === "block") ? "none" : "block";
+}
+
+// Podświetlanie aktywnego linku w obu menu
+document.addEventListener("DOMContentLoaded", function() {
+  const current = window.location.pathname.split("/").pop(); 
+  document.querySelectorAll("nav a").forEach(link => {
+    if (link.getAttribute("href") === current) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
+
 
 </body>
 </html>
