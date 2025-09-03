@@ -141,7 +141,7 @@ function toggleTheme() {
 <div class="w3-white w3-text-grey w3-card-4">
 <div class="w3-container">
 <p class="w3-large w3-text-theme"><b><i class="fa-solid fa-forward-fast fa-fw w3-margin-right w3-text-green"></i>Krótko o doświadczeniu</b></p>
-<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Sześć publikacji naukowych;</p>
+<p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Siedem publikacji naukowych;</p>
 <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 20 projektów z zakresu data science i analizy danych;</p>
 <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 30 repozytoriów na GitHubie;</p>
 <p><i class="fa-solid fa-angles-right w3-text-green" style="margin-right: 5px"></i>Ponad 120 projektów zrealizowanych na DataCamp;</p>
@@ -163,10 +163,11 @@ function toggleTheme() {
 <div class="w3-container">
 <h5 class="w3-opacity"><b>Komentarz do AI Act <span style="font-weight:normal;"></span></b></h5>
 <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Wydanie planowane na jesień 2025</h6>
-<!-- <p>Redakcja: Maria Jędrzejczak, Łukasz Szoszkiewicz, Jędrzej Wydra</p> -->
-<!-- <p><i>Wolters Kluwer Polska</i> (w druku)</p> -->
-<p>Rola: współredaktor i współautor*<p/>
-<p><i>* informacje o redaktorach i autorach będą dostępne po oficjalnej zapowiedzi wydawniczej</i><p/>
+<p>Redakcja: Maria Jędrzejczak, Łukasz Szoszkiewicz, Jędrzej Wydra</p>
+<p><i>Wolters Kluwer Polska</i> (w druku)</p>
+
+<p>Autorzy: Wojciech Biernacki, Jan Denka, Paweł Dudko, Igor Gontarz, Krzysztof Jeromin, Jędrzej Jakubowicz, Maria Jędrzejczak, Karolina Kiejnich-Kruk, Katarzyna Klafkowska-Waśniowska, Michalina Kowala, Zuzanna Kowalska, Michał Krotoszyński, Martyna Kusak, Kamil Łakomy, Patryk Pieniążek, Wojciech Rzepiński, Łukasz Szoszkiewicz, Jędrzej Wydra</p>
+
 <!-- === START: BUTTON + MODAL "What is a legal commentary?" === -->
 <style>
   /* Przyciemnione półprzezroczyste tło za modalem */
@@ -202,12 +203,24 @@ function toggleTheme() {
     }
   }
 </style>
+
+
 <p>
-<button class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" onclick="document.getElementById('komentarz-info').style.display='block'" style="margin-top:10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-<i class="fa-solid fa-circle-question" style="margin-right:6px;"></i>
-    Czym jest komentarz prawniczy?
-  </button>
+
+<a class="w3-button w3-green w3-round w3-small w3-hover-dark-grey" href="https://www.profinfo.pl/sklep/ai-act-akt-w-sprawie-sztucznej-inteligencji-komentarz,704488.html?gad_campaignid=17347492448&gad_source=1&gbraid=0AAAAADtElmzWzJmQw_4tRXFdl5Lfwh4vS&gclid=Cj0KCQjwzt_FBhCEARIsAJGFWVnzkO4TH6fMH3X8dKlXCEzJlSVjaXWmvMMKNjK3uYvvAxJh5fnXR7YaAiH0EALw_wcB#book?utm_source=google&utm_medium=cpc&utm_campaign=PMax%3A%20PRODUCT%20Komentarze&utm_id=17987591712" style="margin: 4px 4px 4px 0;" target="_blank"><i class="fa-solid fa-book" style="margin-right:6px;"></i> Na stronie wydawcy</a>
+
+<button class="w3-button w3-dark-grey w3-round w3-small w3-hover-green"
+        onclick="document.getElementById('komentarz-info').style.display='block'"
+        style="margin: 4px 4px 4px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+  <i class="fa-solid fa-circle-question" style="margin-right:6px;"></i>
+  Czym jest komentarz prawniczy?
+</button>
+
 </p>
+
+
+
+
 <div class="w3-modal" id="komentarz-info" style="display:none">
 <div class="w3-modal-content w3-animate-opacity w3-round-large custom-modal-content">
 <span class="w3-button w3-display-topright" onclick="document.getElementById('komentarz-info').style.display='none'">×</span>
