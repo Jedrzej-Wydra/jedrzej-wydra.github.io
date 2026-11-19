@@ -1,0 +1,60 @@
+2 - Mild
+4 - Moderately severe
+1 - Minimal
+2 - Mild
+2 - Mild
+1 - Minimal
+3 - Moderate
+2 - Mild
+2 - Mild
+5 - Severe
+1 - Minimal
+2 - Mild
+2 - Mild
+3 - Moderate
+3 - Moderate
+4 - Moderately severe
+1 - Minimal
+2 - Mild
+2 - Mild
+4 - Moderately severe
+3 - Moderate
+3 - Moderate
+3 - Moderate
+3 - Moderate
+2 - Mild
+3 - Moderate
+2 - Mild
+3 - Moderate
+2 - Mild
+1 - Minimal
+2 - Mild
+4 - Moderately severe
+2 - Mild
+3 - Moderate
+3 - Moderate
+3 - Moderate
+1 - Minimal
+1 - Minimal
+3 - Moderate
+3 - Moderate
+1 - Minimal
+1 - Minimal
+4 - Moderately severe
+4 - Moderately severe
+2 - Mild
+3 - Moderate
+5 - Severe
+4 - Moderately severe
+4 - Moderately severe
+2 - Mild
+4 - Moderately severe
+2 - Mild
+3 - Moderate
+2 - Mild
+2 - Mild
+3 - Moderate
+1 - Minimal
+2 - Mild
+1 - Minimal
+2 - Mild
